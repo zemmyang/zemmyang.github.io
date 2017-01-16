@@ -1,18 +1,18 @@
-# (title)
+## (title)
 
-## Personal Information
+### Personal Information
 
-## Publications and Presentations
+### Publications and Presentations
 
-## Scholarships
+### Scholarships
 
-## Formal Education
+### Formal Education
 
-## Additional Education
+### Additional Education
 
-## Employment
+### Employment
 
-## Languages
+### Languages
 
 Filipin - Native
 
