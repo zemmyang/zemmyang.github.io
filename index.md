@@ -1,38 +1,71 @@
-## Angeleene S. Ang
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 800px;
+    border: 1px solid gray;
+}
 
-### Personal Information
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
 
-|       |                                                         |
-|------:|---------------------------------------------------------|
-|  aka: | Zemmy                                                   |
-| email | zemmy.ang [at] gmail.com / angeleene.ang [at] gmail.com |
-| phone | Philippines/Roaming: +63915 4444 905                    |
-|       | Russia: +7 981 973 47 93                                |
-| skype | zemmy.ang                                               |
+nav {
+    float: left;
+    max-width: 100px;
+    margin: 0;
+    padding: 1em;
+}
 
-### Publications and Presentations
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
 
-* **A. S. Ang**, S. V. Sukhov, A. Dogariu, and A. S. Shalin, "Scattering Forces within a Left-Handed Photonic Crystal," *Sci. Rep.*. (Accepted, 2016)
+article {
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
 
-* **A. S. Ang**, Q. M. Sugon, and D. J. McNamara, "Skew ray tracing in a step-index optical fiber using geometric algebra," *Appl. Opt*. 54, 3764-3773 (2015)
+<div class="container">
 
-* **A. S. Ang**, Q. M. Sugon, and D. J. McNamara, "Apparent Retrograde Motion of Mars Using Geometric Algebra", *31st Physics Congress of the Samahang Pisika ng Pilipinas* (2013) (Poster Presentation)
+<header>
+   <h1>title</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">test</a></li>
+    <li><a href="#">test</a></li>
+    <li><a href="#">test</a></li>
+  </ul>
+</nav>
 
-### Scholarships
+<article>
 
-|                     |                                                                                           |
-|---------------------|-------------------------------------------------------------------------------------------|
-| Sept 2015 - Present | ITMO University Scholarship "Year of Light" Department of Nanophotonics and Metamaterials |
 
-### Formal Education
 
-### Additional Education
 
-### Employment
 
-### Languages
 
-Filipin - Native
+</article>
 
-English - C1
-IELTS (Academic Module) Overall Band Score: 7.5, Test taken Jan 17 2015
+<footer>Document Compiled (date)</footer>
+
+</div>
+
+</body>
+</html>
