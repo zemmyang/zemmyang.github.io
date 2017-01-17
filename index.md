@@ -3,7 +3,7 @@
 ### Personal Information
 
 |       |                                                         |
-|-------|---------------------------------------------------------|
+|------:|---------------------------------------------------------|
 |  aka: | Zemmy                                                   |
 | email | zemmy.ang [at] gmail.com / angeleene.ang [at] gmail.com |
 | phone | Philippines/Roaming: +63915 4444 905                    |
