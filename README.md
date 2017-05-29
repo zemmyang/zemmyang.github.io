@@ -1,6 +1,5 @@
-# zemmyang.github.io
-Online CV
+It's a website.
 
-exactly what it says on the tin
+Exactly what it says on the tin.
 
 https://zemmyang.github.io/
