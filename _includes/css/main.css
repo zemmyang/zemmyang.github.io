@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: FertigoPro-Regular,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -261,6 +262,11 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
+.btn-modal {
+    width: 33%;
+
+}
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -454,4 +460,8 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.modal-text{
+  text-align: left;
 }

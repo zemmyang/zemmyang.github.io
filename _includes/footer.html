@@ -16,7 +16,7 @@
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="{{ network.title }}"></i></a>
                             </li>
 		                    {% endfor %}
                         </ul>
@@ -32,7 +32,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        <p>Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
+                        <p>Powered by Jekyll and Github Pages.</p>
                     </div>
                 </div>
             </div>

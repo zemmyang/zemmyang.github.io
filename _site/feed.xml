@@ -2,17 +2,17 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
-  <link href="https://zemmyang.github.io/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://zemmyang.github.io/" rel="alternate" type="text/html" />
-  <updated>2019-06-09T18:22:10+03:00</updated>
-  <id>https://zemmyang.github.io/</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-06-10T11:18:04+03:00</updated>
+  <id>http://localhost:4000/</id>
 
   
-    <title type="html">Freelancer</title>
+    <title type="html">Angeleene (Zemmy) S. Ang</title>
   
 
   
-    <subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle>
+    <subtitle>Aspiring Physicist. Perpetually curious. Tries to be a bit of everything. Possibly secretly a starchy tuber.</subtitle>
   
 
   
@@ -20,12 +20,20 @@
   
   
     <entry>
-      <title type="html">Project 1</title>
-      <link href="https://zemmyang.github.io/web%20development/2014/07/18/project-1/" rel="alternate" type="text/html" title="Project 1" />
-      <published>2014-07-18T00:00:00+03:00</published>
-      <updated>2014-07-18T00:00:00+03:00</updated>
-      <id>https://zemmyang.github.io/web%20development/2014/07/18/project-1</id>
-      <content type="html" xml:base="https://zemmyang.github.io/web%20development/2014/07/18/project-1/"></content>
+      <title type="html">Photonic Hook Optical Manipulator</title>
+      <link href="http://localhost:4000/research/2018/02/01/photonic-hook/" rel="alternate" type="text/html" title="Photonic Hook Optical Manipulator" />
+      <published>2018-02-01T00:00:00+02:00</published>
+      <updated>2018-02-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/research/2018/02/01/photonic-hook</id>
+      <content type="html" xml:base="http://localhost:4000/research/2018/02/01/photonic-hook/">&lt;ul&gt;
+  &lt;li&gt;simulated the asymmetric dielectric microstructure in &lt;strong&gt;Comsol 5.2&lt;/strong&gt; using the &lt;em&gt;Electromagnetic Waves Frequency Domain&lt;/em&gt; solver&lt;/li&gt;
+  &lt;li&gt;post-processed part of the results using &lt;strong&gt;Matlab&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;performed a review of related literature on photonic jets and their capability to trap nanoparticles&lt;/li&gt;
+  &lt;li&gt;wrote the initial draft of the manuscript, revised the text according to the instructions of my co-authors&lt;/li&gt;
+  &lt;li&gt;created the 3D model of the photonic hook shown in Fig 1 of the publication using the field data from Comsol, as well as the force and field plots in the paper.&lt;/li&gt;
+  &lt;li&gt;made a 3D animation of an approximation of the behavior of the calculated movement of the nanoparticles under the electric field, for presentation purposes.&lt;/li&gt;
+  &lt;li&gt;presented the results of the publication in two conferences: France (oral, invited talk) and Israel (poster).&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -40,13 +48,13 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="research" />
       
 
       
 
       
-        <summary type="html"></summary>
+        <summary type="html">simulated the asymmetric dielectric microstructure in Comsol 5.2 using the Electromagnetic Waves Frequency Domain solver post-processed part of the results using Matlab performed a review of related literature on photonic jets and their capability to trap nanoparticles wrote the initial draft of the manuscript, revised the text according to the instructions of my co-authors created the 3D model of the photonic hook shown in Fig 1 of the publication using the field data from Comsol, as well as the force and field plots in the paper. made a 3D animation of an approximation of the behavior of the calculated movement of the nanoparticles under the electric field, for presentation purposes. presented the results of the publication in two conferences: France (oral, invited talk) and Israel (poster).</summary>
       
 
       
@@ -54,12 +62,18 @@
     </entry>
   
     <entry>
-      <title type="html">Project 2</title>
-      <link href="https://zemmyang.github.io/web%20development/2014/07/17/project-2/" rel="alternate" type="text/html" title="Project 2" />
-      <published>2014-07-17T00:00:00+03:00</published>
-      <updated>2014-07-17T00:00:00+03:00</updated>
-      <id>https://zemmyang.github.io/web%20development/2014/07/17/project-2</id>
-      <content type="html" xml:base="https://zemmyang.github.io/web%20development/2014/07/17/project-2/"></content>
+      <title type="html">Scattering Forces from Photonic Crystals</title>
+      <link href="http://localhost:4000/research/2017/01/23/phc-scattering-forces/" rel="alternate" type="text/html" title="Scattering Forces from Photonic Crystals" />
+      <published>2017-01-23T00:00:00+02:00</published>
+      <updated>2017-01-23T00:00:00+02:00</updated>
+      <id>http://localhost:4000/research/2017/01/23/phc-scattering-forces</id>
+      <content type="html" xml:base="http://localhost:4000/research/2017/01/23/phc-scattering-forces/">&lt;ul&gt;
+  &lt;li&gt;find other periodic nanostructures in literature that can generate negative refraction, scale them to the appropriate wavelength, and simulate the field propagation using &lt;strong&gt;Comsol 5.1&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;calculated the optical forces generated within these structures, and compare the results with what is expected according to mathematical analysis&lt;/li&gt;
+  &lt;li&gt;wrote part of the manuscript, detailing the results and documenting the method used in the research. generated the plots used in the paper.&lt;/li&gt;
+  &lt;li&gt;collaborated with a remote supervisor in Florida, USA, while being based in St. Petersburg.&lt;/li&gt;
+  &lt;li&gt;presented the results of the publication at two conferences (poster and oral) in Russia.&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -74,149 +88,13 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="research" />
       
 
       
 
       
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 3</title>
-      <link href="https://zemmyang.github.io/web%20development/2014/07/16/project-3/" rel="alternate" type="text/html" title="Project 3" />
-      <published>2014-07-16T00:00:00+03:00</published>
-      <updated>2014-07-16T00:00:00+03:00</updated>
-      <id>https://zemmyang.github.io/web%20development/2014/07/16/project-3</id>
-      <content type="html" xml:base="https://zemmyang.github.io/web%20development/2014/07/16/project-3/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 4</title>
-      <link href="https://zemmyang.github.io/web%20development/2014/07/15/project-4/" rel="alternate" type="text/html" title="Project 4" />
-      <published>2014-07-15T00:00:00+03:00</published>
-      <updated>2014-07-15T00:00:00+03:00</updated>
-      <id>https://zemmyang.github.io/web%20development/2014/07/15/project-4</id>
-      <content type="html" xml:base="https://zemmyang.github.io/web%20development/2014/07/15/project-4/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6</title>
-      <link href="https://zemmyang.github.io/web%20development/2014/07/15/project-6/" rel="alternate" type="text/html" title="Project 6" />
-      <published>2014-07-15T00:00:00+03:00</published>
-      <updated>2014-07-15T00:00:00+03:00</updated>
-      <id>https://zemmyang.github.io/web%20development/2014/07/15/project-6</id>
-      <content type="html" xml:base="https://zemmyang.github.io/web%20development/2014/07/15/project-6/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 5</title>
-      <link href="https://zemmyang.github.io/web%20development/2014/07/14/project-5/" rel="alternate" type="text/html" title="Project 5" />
-      <published>2014-07-14T00:00:00+03:00</published>
-      <updated>2014-07-14T00:00:00+03:00</updated>
-      <id>https://zemmyang.github.io/web%20development/2014/07/14/project-5</id>
-      <content type="html" xml:base="https://zemmyang.github.io/web%20development/2014/07/14/project-5/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
+        <summary type="html">find other periodic nanostructures in literature that can generate negative refraction, scale them to the appropriate wavelength, and simulate the field propagation using Comsol 5.1. calculated the optical forces generated within these structures, and compare the results with what is expected according to mathematical analysis wrote part of the manuscript, detailing the results and documenting the method used in the research. generated the plots used in the paper. collaborated with a remote supervisor in Florida, USA, while being based in St. Petersburg. presented the results of the publication at two conferences (poster and oral) in Russia.</summary>
       
 
       

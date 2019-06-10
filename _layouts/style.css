@@ -1,2 +1,8 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+.FertigoPro-Regular {
+	font-family: FertigoPro-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
