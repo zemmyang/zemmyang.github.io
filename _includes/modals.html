@@ -17,6 +17,9 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
                             <div class="modal-text">
+                              <h3 class="modal-title">
+                                {{ post.fulltitle }}{% if post.byline %}, {{ post.byline }}{% endif %}
+                              </h3>
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}

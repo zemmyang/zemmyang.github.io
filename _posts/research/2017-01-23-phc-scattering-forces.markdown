@@ -1,7 +1,9 @@
 ---
 title: Scattering Forces from Photonic Crystals
+fulltitle: Scattering Forces within a Left-Handed Photonic Crystal
+byline: [published in Scientific Reports]
 layout: default
-modal-id: 2
+modal-id: 20170123
 date: '2017-01-23'
 img: phc-forces.png
 alt: image-alt
@@ -26,5 +28,5 @@ pdflink: full-papers/2016SR.pdf
 * find other periodic nanostructures in literature that can generate negative refraction, scale them to the appropriate wavelength, and simulate the field propagation using **Comsol 5.1**.
 * calculated the optical forces generated within these structures, and compare the results with what is expected according to mathematical analysis
 * wrote part of the manuscript, detailing the results and documenting the method used in the research. generated the plots used in the paper.
-* collaborated with a remote supervisor in Florida, USA, while being based in St. Petersburg. 
+* collaborated with a remote supervisor in Florida, USA, while being based in St. Petersburg.
 * presented the results of the publication at two conferences (poster and oral) in Russia.

@@ -1,7 +1,9 @@
 ---
 title: Photonic Hook Optical Manipulator
+fulltitle: ‘Photonic Hook’ based optomechanical nanoparticle manipulator
+byline: [published in Scientific Reports]
 layout: default
-modal-id: 1
+modal-id: 20180201
 date: '2018-02-01'
 img: photonic_hook.png
 alt: image-alt

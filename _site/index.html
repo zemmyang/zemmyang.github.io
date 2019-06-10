@@ -15,6 +15,9 @@
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" type="text/css" href="css/fertigo/css/fertigo.css">
+    <link href="/css/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/css/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/css/fontawesome/css/solid.css" rel="stylesheet">
 
     <!-- Google verification -->
     <meta name="google-site-verification" content="JQOCRSoMXTwd3OmZnLqdHZNchLxdJLHKEGnWwz1SDbw">
@@ -23,7 +26,6 @@
     
 
     <!-- Custom Fonts -->
-    <script src="https://kit.fontawesome.com/b8a4a61420.js"></script>
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -81,32 +83,64 @@
                         <span class="name">Angeleene (Zemmy) S. Ang</span>
                         <hr class="star-light">
                         <span class="skills">Aspiring Physicist - Tries to be a bit of everything</span>
+<!--
                         <div class="col-lg-8 col-lg-offset-2 text-center">
                             <a href="#" class="btn btn-lg btn-outline">
                                 <i class="fas fa-graduation-cap"></i> View Full Academic CV
                             </a>
                         </div>
-
+-->
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Key Skills</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+<div class="skillset">
+  <ul>
+    <li> Familiarity with numerical simulation systems for electromagnetic fields, specifically in Comsol and Lumerical, as well as scripting using Matlab</li>
+<li> Able to adapt previous experience on using similar systems to learn new methods of numerical simulations, or programming languages</li>
+<li> Proven ability to read and perform literature review, write, and present technical and scientific details in fluent English</li>
+<li> Capable and always very curious about learning about entirely new fields of physics</li>
+  </ul>
+</div>
+        </div>
+    </div>
+</section>
+
+        <!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Scientific Research</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+                        <a href="#portfolioModal-20190531" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/wg-nanoantenna.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-20180201" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
@@ -117,7 +151,7 @@
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
+                        <a href="#portfolioModal-20170123" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
@@ -127,17 +161,39 @@
                         </a>
                     </div>
                 
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-20150417" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/fibers.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-20150223" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/orbits.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
             </div>
         </div>
     </section>
 
      <!-- About Section -->
-    <section class="success" id="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -281,7 +337,70 @@
 
      <!-- Portfolio Modals -->
  
-    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-20190531" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Atomic Trapping using all-dielectric waveguides</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/wg-nanoantenna.png" class="img-responsive img-centered" alt="image-alt">
+
+                            <div class="modal-text">
+                              <h3 class="modal-title">
+                                Tailored optical potentials for Cs atoms above waveguides with focusing dielectric nano-antenna, currently in preparation
+                              </h3>
+                            
+                                <p>This work presents results from proof-of-concept simulation of an all-dielectric nano-antenna/waveguide system and its potential application for trapping cold atoms.</p>
+                            
+                            
+                                <p><ul>
+  <li>calculated the electric fields generated by the proposed nano-atenna/waveguide system using Lumerical FDTD and a batch script.</li>
+  <li>performed post-processing on the results using several Matlab scripts</li>
+  <li>created the illustrations for the paper in Blender, and 3D animations for use in presentations</li>
+  <li>worked with colleagues in the Physics Department of BGU to analyze the results. wrote and edited the manuscript, summarized the available related literature.</li>
+  <li>presented the results of the research in multiple conferences: Israel (oral presentation and 2 posters), and the results will be presented the upcoming SPIE Optics and Photonics conference in USA</li>
+</ul>
+</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li><b>Co-Authors</b>: Yonathan Japha, Mark Keil, David Groswasser, Alina Karabchevsky
+                                        <!-- <strong><a href="http://startbootstrap.com"></a></strong> -->
+                                    </li>
+                                
+                                
+                                    <li><b>Date</b>: In Preparation
+                                    </li>
+                                
+                                
+                                    <li><b>Topic</b>: Silicon Photonics
+                                    </li>
+                                
+                            </ul>
+                            </div>
+
+                            
+
+                            
+
+                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-20180201" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -298,6 +417,9 @@
                             <img src="img/portfolio/photonic_hook.png" class="img-responsive img-centered" alt="image-alt">
 
                             <div class="modal-text">
+                              <h3 class="modal-title">
+                                ‘Photonic Hook’ based optomechanical nanoparticle manipulator, published in Scientific Reports
+                              </h3>
                             
                                 <p>This paper investigates the movement of nanoparticles under the influence of a curved electric field generated by an asymmetric dielectric cuboid.</p>
                             
@@ -347,7 +469,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-20170123" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -364,6 +486,9 @@
                             <img src="img/portfolio/phc-forces.png" class="img-responsive img-centered" alt="image-alt">
 
                             <div class="modal-text">
+                              <h3 class="modal-title">
+                                Scattering Forces within a Left-Handed Photonic Crystal, published in Scientific Reports
+                              </h3>
                             
                                 <p>This paper presents a study of several periodic nanostructures, their capability to generate a specialized electric field, and the movement of nanoparticles under the influence of this field.</p>
                             
@@ -400,6 +525,137 @@
 
                             
                             <a href="https://doi.org/10.1038/srep41014" target="_blank"> <button type="button" class="btn btn-default btn-modal"><i class="fa fa-external-link-square-alt"></i> Link</button> </a>
+                            
+
+                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-20150417" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Optical Fiber Skew Ray Tracing</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/fibers.png" class="img-responsive img-centered" alt="image-alt">
+
+                            <div class="modal-text">
+                              <h3 class="modal-title">
+                                Skew ray tracing in a step-index optical fiber using geometric algebra, published in Applied Optics
+                              </h3>
+                            
+                                <p>This works shows a purely analytical method for calculating the skew 3D light rays confined inside an optical fiber.</p>
+                            
+                            
+                                <p><ul>
+  <li>wrote an introduction to Geometric Algebra - an esoteric form of vector mathematics well-suited for systems under rotation and with cylindrical symmetry</li>
+  <li>created and polished the figures under the guidance of a co-author using <strong>AutoCAD 2010</strong></li>
+  <li>performed the analytical calculations for ray tracing and obtained the expected results: the reflections of the light path as it travels along a cylindrical optical fiber traces a helix</li>
+  <li>wrote the manuscript based on the process to obtain the results under the guidance of a co-author</li>
+  <li>showed that it is possible to trace the optical path without resorting to reducing methods normally shown in literature (simplifying the problem using only meridional/on-axis 2D rays on a plane or using computational methods/numerical simulations)</li>
+</ul>
+</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li><b>Co-Authors</b>: Quirino M. Sugon, Daniel J. McNamara
+                                        <!-- <strong><a href="http://startbootstrap.com"></a></strong> -->
+                                    </li>
+                                
+                                
+                                    <li><b>Date</b>: Apr 2015
+                                    </li>
+                                
+                                
+                                    <li><b>Topic</b>: Geometric Algebra
+                                    </li>
+                                
+                            </ul>
+                            </div>
+
+                            
+                            <a href="files/full-papers/2015AO.pdf"><button type="button" class="btn btn-default btn-modal"><i class="fas fa-file-pdf"></i> PDF</button></a>
+                            
+
+                            
+                            <a href="https://doi.org/10.1364/AO.54.003764" target="_blank"> <button type="button" class="btn btn-default btn-modal"><i class="fa fa-external-link-square-alt"></i> Link</button> </a>
+                            
+
+                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-20150223" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gravitational orbits of the higher-order multipole moments</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/orbits.png" class="img-responsive img-centered" alt="image-alt">
+
+                            <div class="modal-text">
+                              <h3 class="modal-title">
+                                An Investigation on the Multipole Moments of a Gravitating Body and its Effects on Orbits, unpublished Bachelors Thesis
+                              </h3>
+                            
+                                <p>This thesis expands the Kepler problem of graviational orbits by considering the additional multipole moments of a non-spherically symmetric attractor.</p>
+                            
+                            
+                                <p><ul>
+  <li>studied the related works in literature about gravitational potentials, orbits, and numerical methods for solving differential equations. wrote the thesis text, summarized and drew conclusions from the results from the simulations</li>
+  <li>adapted the code, in <strong>FORTRAN 90</strong>, for the second-order Runge-Kutta method for solving the differential equation obtained from the orbit calculations, generated and post-processed roughly 10 billion datapoints</li>
+  <li>created the illustrations for the text in <strong>AutoCAD 2010</strong>. plotted the numerical simulation results using <strong>gnuplot</strong>, a command-line driven plotting utility for Linux systems</li>
+  <li>presented the results in front of a panel of four professors in the Physics Department</li>
+</ul>
+</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li><b>Co-Authors</b>: Jerrold Garcia
+                                        <!-- <strong><a href="http://startbootstrap.com"></a></strong> -->
+                                    </li>
+                                
+                                
+                                    <li><b>Date</b>: Feb 2015
+                                    </li>
+                                
+                                
+                                    <li><b>Topic</b>: Gravitational Orbits
+                                    </li>
+                                
+                            </ul>
+                            </div>
+
+                            
+                            <a href="files/thesis/ANG_BS-thesis.pdf"><button type="button" class="btn btn-default btn-modal"><i class="fas fa-file-pdf"></i> PDF</button></a>
+                            
+
                             
 
                             <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
