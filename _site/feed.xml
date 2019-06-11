@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-06-10T15:46:39+03:00</updated>
+  <updated>2019-06-11T17:09:51+03:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -102,6 +102,74 @@
     </entry>
   
     <entry>
+      <title type="html">PhD in Electro-optical Engineering</title>
+      <link href="http://localhost:4000/education/2017/10/01/phd-electrooptics/" rel="alternate" type="text/html" title="PhD in Electro-optical Engineering" />
+      <published>2017-10-01T00:00:00+03:00</published>
+      <updated>2017-10-01T00:00:00+03:00</updated>
+      <id>http://localhost:4000/education/2017/10/01/phd-electrooptics</id>
+      <content type="html" xml:base="http://localhost:4000/education/2017/10/01/phd-electrooptics/">&lt;p&gt;text&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="education" />
+      
+
+      
+
+      
+        <summary type="html">text</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">MSc Photonics and Optical Information Technologies</title>
+      <link href="http://localhost:4000/education/2017/07/01/ms-photonics/" rel="alternate" type="text/html" title="MSc Photonics and Optical Information Technologies" />
+      <published>2017-07-01T00:00:00+03:00</published>
+      <updated>2017-07-01T00:00:00+03:00</updated>
+      <id>http://localhost:4000/education/2017/07/01/ms-photonics</id>
+      <content type="html" xml:base="http://localhost:4000/education/2017/07/01/ms-photonics/">&lt;p&gt;text&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="education" />
+      
+
+      
+
+      
+        <summary type="html">text</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Scattering Forces from Photonic Crystals</title>
       <link href="http://localhost:4000/research/2017/01/23/phc-scattering-forces/" rel="alternate" type="text/html" title="Scattering Forces from Photonic Crystals" />
       <published>2017-01-23T00:00:00+02:00</published>
@@ -175,6 +243,40 @@
 
       
         <summary type="html">wrote an introduction to Geometric Algebra - an esoteric form of vector mathematics well-suited for systems under rotation and with cylindrical symmetry created and polished the figures under the guidance of a co-author using AutoCAD 2010 performed the analytical calculations for ray tracing and obtained the expected results: the reflections of the light path as it travels along a cylindrical optical fiber traces a helix wrote the manuscript based on the process to obtain the results under the guidance of a co-author showed that it is possible to trace the optical path without resorting to reducing methods normally shown in literature (simplifying the problem using only meridional/on-axis 2D rays on a plane or using computational methods/numerical simulations)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">BSc in Physics</title>
+      <link href="http://localhost:4000/education/2015/03/01/bs-physics/" rel="alternate" type="text/html" title="BSc in Physics" />
+      <published>2015-03-01T00:00:00+02:00</published>
+      <updated>2015-03-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/education/2015/03/01/bs-physics</id>
+      <content type="html" xml:base="http://localhost:4000/education/2015/03/01/bs-physics/">&lt;p&gt;text&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="education" />
+      
+
+      
+
+      
+        <summary type="html">text</summary>
       
 
       
