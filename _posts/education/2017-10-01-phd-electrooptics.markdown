@@ -12,4 +12,7 @@ enddate: Present
 description:
 ---
 
-text
+#### Notable courses taken
+
+* Integrated Photonics
+* Imaging Principles and Optical Imaging Systems
