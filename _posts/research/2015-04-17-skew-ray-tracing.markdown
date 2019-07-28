@@ -11,7 +11,7 @@ project-date: Apr 2015
 co-authors: Quirino M. Sugon, Daniel J. McNamara
 category: research
 topic: Geometric Algebra
-description: This works shows a purely analytical method for calculating the skew
+description: This work shows a purely analytical method for calculating the skew
   3D light rays confined inside an optical fiber.
 abstract: 'We used geometric algebra to compute the paths of skew rays in a cylindrical,
   step-index multimode optical fiber. To do this, we used the vector addition form
