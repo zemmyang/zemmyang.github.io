@@ -203,15 +203,17 @@
                <div class="row">
                    <div class="col-lg-8 col-lg-offset-2">
                        <div class="modal-body">
-                           <h2>{{ post.title }}</h2>
+                           <h2>{{ post.presentation-title }}</h2>
                            <hr class="star-primary">
-
+                           {% if post.presentation-type == "Poster" %}
+<a href="files/{{ post.presentation }}"><img src="files/{{ post.presentation }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
+                            {% endif %}
                            <div class="modal-text">
                              <h3 class="modal-title">
-                               {{ post.fulltitle }}{% if post.byline %}, {{ post.byline }}{% endif %}
+                               {{ post.presentation-type }} presentation at the {{ post.conference-title }}
                              </h3>
-                           {% if post.description %}
-                               <p>{{ post.description }}</p>
+                           {% if post.notes %}
+                               <p>{{ post.notes }}</p>
                            {% endif %}
                            {% if post.content %}
                                <p>{{ post.content }}</p>
@@ -223,7 +225,7 @@
                                    </li>
                                {% endif %}
                                {% if post.project-date %}
-                                   <li><b>Date</b>: {{ post.project-date }}
+                                   <li><b>Date</b>: {{ post.conference-date }}
                                    </li>
                                {% endif %}
                                {% if post.topic %}
@@ -233,12 +235,12 @@
                            </ul>
                            </div>
 
-                           {% if post.pdflink %}
-                           <a href="files/{{ post.pdflink }}"><button type="button" class="btn btn-default btn-modal"><i class="fas fa-file-pdf"></i> PDF</button></a>
+                           {% if post.abstract %}
+                           <a href="files/abstracts/{{ post.abstract }}"><button type="button" class="btn btn-default btn-modal"><i class="fas fa-file-pdf"></i> Abstract</button></a>
                            {% endif %}
 
                            {% if post.doilink %}
-                           <a href="{{ post.doilink }}" target="_blank"> <button type="button" class="btn btn-default btn-modal"><i class="fa fa-external-link-square-alt"></i> Link</button> </a>
+                           <a href="{{ post.doilink }}" target="_blank"> <button type="button" class="btn btn-default btn-modal"><i class="fa fa-external-link-square-alt"></i> Proceedings</button> </a>
                            {% endif %}
 
                            <button type="button" class="btn btn-default btn-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

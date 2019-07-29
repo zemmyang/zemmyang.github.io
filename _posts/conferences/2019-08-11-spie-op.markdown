@@ -7,3 +7,19 @@ conference-date: 11 - 15 August 2019
 layout: default
 category: conferences
 ---
+
+
+<ul>
+<li>
+<b>A.S. Ang</b>, D. Groswasser, M. Keil, Y. Japha, A.S. Shalin, R. Folman, A. Karabchevsky, 'All-dielectric waveguide-overlayer system for single-atom optical trapping', NanoIsrael2018. Jerusalem, Israel. (Poster Presentation, October 2018)
+</li>
+<li>
+<b>A. S. Ang</b>,I.V. Minin, O.V. Minin, S.V. Sukhov, A.S. Shalin, A. Karabchevsky, "Low-contrast photonic hook manipulator for cellular differentiation", META 2018, the 9th International Conference on Metamaterials, Photonic Crystals and Plasmonics, Round-trip Marseilles Cruise. (Invited Talk, June 2018) (<a href="http://zemmyang.github.io/files/presentations/2018META.pdf">Presentation slides</a>, <a href="http:///zemmyang.github.io/files/videos/2018META.mp4">Supplementary video</a>)
+</li>
+<li>
+        <b>A. S. Ang</b>, S. V. Sukhov, A. Dogariu, and A. S. Shalin, "Electromagnetic Forces in Negatively Refracting Photonic Crystals," <i>Days of Diffraction 2017, St. Petersburg</i>. (Poster Presentation, 2017) (<a href="http://ieeexplore.ieee.org/document/8167987/">IEEE Xplore</a>)
+    </li>
+<li>
+        <b>A. S. Ang</b>, S. V. Sukhov, A. Dogariu, and A. S. Shalin, "Electromagnetic Forces in Negatively Refracting Photonic Crystals," <i>Progress in Electromagnetics Research Symposium (PIERS) 2017 in St. Petersburg</i>. (Oral Presentation)
+    </li>
+    <li>
