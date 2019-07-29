@@ -1,7 +1,9 @@
 ---
 presentation-title: Tailoring the trapping potential for Cesium atoms using nano-antennas of different shapes on a waveguide
 presentation-type: Poster
-conference-title: SPIE Optics and Photonics: Nanoscience and Engineering
+conference-title: SPIE Optics and Photonics Nanoscience and Engineering
 location: San Diego, California
 conference-date: 11 - 15 August 2019
+layout: default
+category: conferences
 ---

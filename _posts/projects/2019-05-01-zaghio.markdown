@@ -2,7 +2,14 @@
 title: zemmyang.github.io
 date: 2019-05-01
 type: website
+modal-id: 20190501
 link: https://zemmyang.github.io/
-picture:
+img: zaghio.png
 description: This website.
+category: projects
+layout: default
+client: none
+topic: websites, HTML, CSS,
 ---
+
+text

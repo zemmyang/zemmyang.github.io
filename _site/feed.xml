@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-06-24T14:20:39+03:00</updated>
+  <updated>2019-07-29T15:03:49+03:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -93,11 +93,11 @@
   
     <entry>
       <title type="html">zemmyang.github.io</title>
-      <link href="http://localhost:4000/2019/05/01/zaghio/" rel="alternate" type="text/html" title="zemmyang.github.io" />
+      <link href="http://localhost:4000/projects/2019/05/01/zaghio/" rel="alternate" type="text/html" title="zemmyang.github.io" />
       <published>2019-05-01T00:00:00+03:00</published>
       <updated>2019-05-01T00:00:00+03:00</updated>
-      <id>http://localhost:4000/2019/05/01/zaghio</id>
-      <content type="html" xml:base="http://localhost:4000/2019/05/01/zaghio/"></content>
+      <id>http://localhost:4000/projects/2019/05/01/zaghio</id>
+      <content type="html" xml:base="http://localhost:4000/projects/2019/05/01/zaghio/">&lt;p&gt;text&lt;/p&gt;</content>
 
       
       
@@ -112,11 +112,13 @@
       </author>
 
       
-
+        <category term="projects" />
       
 
       
-        <summary type="html"></summary>
+
+      
+        <summary type="html">text</summary>
       
 
       
@@ -125,11 +127,11 @@
   
     <entry>
       <title type="html">Rogue Data Braver</title>
-      <link href="http://localhost:4000/2019/02/01/rouge-data-braver/" rel="alternate" type="text/html" title="Rogue Data Braver" />
+      <link href="http://localhost:4000/projects/2019/02/01/rouge-data-braver/" rel="alternate" type="text/html" title="Rogue Data Braver" />
       <published>2019-02-01T00:00:00+02:00</published>
       <updated>2019-02-01T00:00:00+02:00</updated>
-      <id>http://localhost:4000/2019/02/01/rouge-data-braver</id>
-      <content type="html" xml:base="http://localhost:4000/2019/02/01/rouge-data-braver/"></content>
+      <id>http://localhost:4000/projects/2019/02/01/rouge-data-braver</id>
+      <content type="html" xml:base="http://localhost:4000/projects/2019/02/01/rouge-data-braver/"></content>
 
       
       
@@ -143,6 +145,8 @@
         
       </author>
 
+      
+        <category term="projects" />
       
 
       
@@ -157,11 +161,19 @@
   
     <entry>
       <title type="html">Potatography</title>
-      <link href="http://localhost:4000/2019/01/01/potatography/" rel="alternate" type="text/html" title="Potatography" />
+      <link href="http://localhost:4000/projects/2019/01/01/potatography/" rel="alternate" type="text/html" title="Potatography" />
       <published>2019-01-01T00:00:00+02:00</published>
       <updated>2019-01-01T00:00:00+02:00</updated>
-      <id>http://localhost:4000/2019/01/01/potatography</id>
-      <content type="html" xml:base="http://localhost:4000/2019/01/01/potatography/"></content>
+      <id>http://localhost:4000/projects/2019/01/01/potatography</id>
+      <content type="html" xml:base="http://localhost:4000/projects/2019/01/01/potatography/">&lt;ul&gt;
+  &lt;li&gt;Github-pages powered photography portfolio.&lt;/li&gt;
+  &lt;li&gt;For privacy, image metadata are removed using a very simple bash script:
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd gallery
+exiftool -all= *
+rm *original
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -176,11 +188,13 @@
       </author>
 
       
-
+        <category term="projects" />
       
 
       
-        <summary type="html"></summary>
+
+      
+        <summary type="html">Github-pages powered photography portfolio. For privacy, image metadata are removed using a very simple bash script: cd gallery exiftool -all= * rm *original</summary>
       
 
       
