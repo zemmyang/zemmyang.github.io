@@ -5,11 +5,10 @@ type: website
 modal-id: 20190501
 link: https://zemmyang.github.io/
 img: zaghio.png
-description: This website.
 category: projects
 layout: default
 client: none
 topic: websites, HTML, CSS,
 ---
 
-text
+Using the [Freelancer theme by jeromelachaud](https://github.com/jeromelachaud/freelancer-theme), [also here](http://jeromelachaud.com/freelancer-theme/), I extended the features to include support for multiple sets of projects, a timeline (as seen in the Education section), and changed the colors a bit.
