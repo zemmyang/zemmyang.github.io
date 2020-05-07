@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-08-21T14:35:23+03:00</updated>
+  <updated>2019-12-09T13:38:06+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,54 +18,6 @@
   
 
   
-  
-    <entry>
-      <title type="html">Spie Op</title>
-      <link href="http://localhost:4000/conferences/2019/08/11/spie-op/" rel="alternate" type="text/html" title="Spie Op" />
-      <published>2019-08-11T00:00:00+03:00</published>
-      <updated>2019-08-11T00:00:00+03:00</updated>
-      <id>http://localhost:4000/conferences/2019/08/11/spie-op</id>
-      <content type="html" xml:base="http://localhost:4000/conferences/2019/08/11/spie-op/">&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;A.S. Ang&lt;/b&gt;, D. Groswasser, M. Keil, Y. Japha, A.S. Shalin, R. Folman, A. Karabchevsky, 'All-dielectric waveguide-overlayer system for single-atom optical trapping', NanoIsrael2018. Jerusalem, Israel. (Poster Presentation, October 2018)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;A. S. Ang&lt;/b&gt;,I.V. Minin, O.V. Minin, S.V. Sukhov, A.S. Shalin, A. Karabchevsky, &quot;Low-contrast photonic hook manipulator for cellular differentiation&quot;, META 2018, the 9th International Conference on Metamaterials, Photonic Crystals and Plasmonics, Round-trip Marseilles Cruise. (Invited Talk, June 2018) (&lt;a href=&quot;http://zemmyang.github.io/files/presentations/2018META.pdf&quot;&gt;Presentation slides&lt;/a&gt;, &lt;a href=&quot;http:///zemmyang.github.io/files/videos/2018META.mp4&quot;&gt;Supplementary video&lt;/a&gt;)
-&lt;/li&gt;
-&lt;li&gt;
-        &lt;b&gt;A. S. Ang&lt;/b&gt;, S. V. Sukhov, A. Dogariu, and A. S. Shalin, &quot;Electromagnetic Forces in Negatively Refracting Photonic Crystals,&quot; &lt;i&gt;Days of Diffraction 2017, St. Petersburg&lt;/i&gt;. (Poster Presentation, 2017) (&lt;a href=&quot;http://ieeexplore.ieee.org/document/8167987/&quot;&gt;IEEE Xplore&lt;/a&gt;)
-    &lt;/li&gt;
-&lt;li&gt;
-        &lt;b&gt;A. S. Ang&lt;/b&gt;, S. V. Sukhov, A. Dogariu, and A. S. Shalin, &quot;Electromagnetic Forces in Negatively Refracting Photonic Crystals,&quot; &lt;i&gt;Progress in Electromagnetics Research Symposium (PIERS) 2017 in St. Petersburg&lt;/i&gt;. (Oral Presentation)
-    &lt;/li&gt;
-    &lt;li&gt;
-&lt;/li&gt;&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="conferences" />
-      
-
-      
-
-      
-        <summary type="html">A.S. Ang, D. Groswasser, M. Keil, Y. Japha, A.S. Shalin, R. Folman, A. Karabchevsky, 'All-dielectric waveguide-overlayer system for single-atom optical trapping', NanoIsrael2018. Jerusalem, Israel. (Poster Presentation, October 2018) A. S. Ang,I.V. Minin, O.V. Minin, S.V. Sukhov, A.S. Shalin, A. Karabchevsky, &quot;Low-contrast photonic hook manipulator for cellular differentiation&quot;, META 2018, the 9th International Conference on Metamaterials, Photonic Crystals and Plasmonics, Round-trip Marseilles Cruise. (Invited Talk, June 2018) (Presentation slides, Supplementary video) A. S. Ang, S. V. Sukhov, A. Dogariu, and A. S. Shalin, &quot;Electromagnetic Forces in Negatively Refracting Photonic Crystals,&quot; Days of Diffraction 2017, St. Petersburg. (Poster Presentation, 2017) (IEEE Xplore) A. S. Ang, S. V. Sukhov, A. Dogariu, and A. S. Shalin, &quot;Electromagnetic Forces in Negatively Refracting Photonic Crystals,&quot; Progress in Electromagnetics Research Symposium (PIERS) 2017 in St. Petersburg. (Oral Presentation)</summary>
-      
-
-      
-      
-    </entry>
   
     <entry>
       <title type="html">Piserver</title>
@@ -415,6 +367,62 @@ rm *original
 
       
         <summary type="html">wrote an introduction to Geometric Algebra - an esoteric form of vector mathematics well-suited for systems under rotation and with cylindrical symmetry created and polished the figures under the guidance of a co-author using AutoCAD 2010 performed the analytical calculations for ray tracing and obtained the expected results: the reflections of the light path as it travels along a cylindrical optical fiber traces a helix wrote the manuscript based on the process to obtain the results under the guidance of a co-author showed that it is possible to trace the optical path without resorting to reducing methods normally shown in literature (simplifying the problem using only meridional/on-axis 2D rays on a plane or using computational methods/numerical simulations)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">BSc in Physics</title>
+      <link href="http://localhost:4000/education/2015/03/01/bs-physics/" rel="alternate" type="text/html" title="BSc in Physics" />
+      <published>2015-03-01T00:00:00+02:00</published>
+      <updated>2015-03-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/education/2015/03/01/bs-physics</id>
+      <content type="html" xml:base="http://localhost:4000/education/2015/03/01/bs-physics/">&lt;h4 id=&quot;official-university-description&quot;&gt;Official University description&lt;/h4&gt;
+
+&lt;p&gt;This is a 5-year program for students interested in acquiring the necessary knowledge and skills to do research in either theoretical or experimental physics. The aim is for students to gain a more in-depth familiarity with some of the most important concepts in physics and also develop skills in performing physics experiments. The program requires a submission and successful defense of a research thesis during the fifth year. The thesis can either be in theoretical or experimental physics.&lt;/p&gt;
+
+&lt;h4 id=&quot;notable-courses-taken&quot;&gt;Notable courses taken&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Computer-Aided Design (AutoCAD 2010)&lt;/li&gt;
+  &lt;li&gt;Engineering Workshop and Practices&lt;/li&gt;
+  &lt;li&gt;Introduction to Computing (instruction in C++ and C#)&lt;/li&gt;
+  &lt;li&gt;Introduction to Data Structures (instruction in C++)&lt;/li&gt;
+  &lt;li&gt;Classical Mechanics&lt;/li&gt;
+  &lt;li&gt;Computational Physics (instruction in Fortran 90)&lt;/li&gt;
+  &lt;li&gt;Modern Topics in Materials Science and Engineering: Introduction to Nanotechnology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;organizations&quot;&gt;Organizations&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2012-15: Ateneo League of Physicists&lt;/li&gt;
+  &lt;li&gt;2011-12: Ateneo Electronics and Computer Engineering Society, 2nd year Computer Engineering Batch Representative&lt;/li&gt;
+  &lt;li&gt;2011-12: Ateneo Innovation Center&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="education" />
+      
+
+      
+
+      
+        <summary type="html">Official University description</summary>
       
 
       
