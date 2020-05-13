@@ -1,14 +1,14 @@
 ---
 title: Atomic Trapping using all-dielectric waveguides
 fulltitle: Tailored optical potentials for Cs atoms above waveguides with focusing dielectric nano-antenna
-byline: [currently in preparation]
+byline: Accepted for publication
 layout: default
 modal-id: 20190531
 date: '2019-05-31'
 img: wg-nanoantenna.png
 alt: image-alt
-project-date: In Preparation
-co-authors: Yonathan Japha, Mark Keil, David Groswasser, Alina Karabchevsky
+project-date: Accepted
+co-authors: Alexander Shalin, Alina Karabchevsky
 category: research
 topic: Silicon Photonics
 description: This work presents results from proof-of-concept simulation of an all-dielectric nano-antenna/waveguide system and its potential application for trapping cold atoms.
@@ -21,4 +21,4 @@ pdflink:
 * performed post-processing on the results using several Matlab scripts
 * created the illustrations for the paper in Blender, and 3D animations for use in presentations
 * worked with colleagues in the Physics Department of BGU to analyze the results. wrote and edited the manuscript, summarized the available related literature.
-* presented the results of the research in multiple conferences: Israel (oral presentation and 2 posters), and the results will be presented the upcoming SPIE Optics and Photonics conference in USA
+* presented the results of the research in multiple conferences: oral presentation and 2 posters
