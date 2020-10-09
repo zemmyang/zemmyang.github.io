@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-05-26T17:06:27+03:00</updated>
+  <updated>2020-10-09T17:36:59+03:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -41,38 +41,6 @@
 
       
         <category term="research" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Piserver</title>
-      <link href="http://localhost:4000/2019/06/18/piserver/" rel="alternate" type="text/html" title="Piserver" />
-      <published>2019-06-18T00:00:00+03:00</published>
-      <updated>2019-06-18T00:00:00+03:00</updated>
-      <id>http://localhost:4000/2019/06/18/piserver</id>
-      <content type="html" xml:base="http://localhost:4000/2019/06/18/piserver/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
       
 
       
@@ -153,48 +121,6 @@
 
       
         <summary type="html">Using the Freelancer theme by jeromelachaud, also here, I extended the features to include support for multiple sets of projects, a timeline (as seen in the Education section), and changed the colors a bit.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Potatography</title>
-      <link href="http://localhost:4000/projects/2019/01/01/potatography/" rel="alternate" type="text/html" title="Potatography" />
-      <published>2019-01-01T00:00:00+02:00</published>
-      <updated>2019-01-01T00:00:00+02:00</updated>
-      <id>http://localhost:4000/projects/2019/01/01/potatography</id>
-      <content type="html" xml:base="http://localhost:4000/projects/2019/01/01/potatography/">&lt;ul&gt;
-  &lt;li&gt;Github-pages powered photography portfolio.&lt;/li&gt;
-  &lt;li&gt;For privacy, image metadata are removed using a very simple bash script:
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd gallery
-exiftool -all= *
-rm *original
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="projects" />
-      
-
-      
-
-      
-        <summary type="html">Github-pages powered photography portfolio. For privacy, image metadata are removed using a very simple bash script: cd gallery exiftool -all= * rm *original</summary>
       
 
       
@@ -401,6 +327,101 @@ rm *original
 
       
         <summary type="html">wrote an introduction to Geometric Algebra - an esoteric form of vector mathematics well-suited for systems under rotation and with cylindrical symmetry created and polished the figures under the guidance of a co-author using AutoCAD 2010 performed the analytical calculations for ray tracing and obtained the expected results: the reflections of the light path as it travels along a cylindrical optical fiber traces a helix wrote the manuscript based on the process to obtain the results under the guidance of a co-author showed that it is possible to trace the optical path without resorting to reducing methods normally shown in literature (simplifying the problem using only meridional/on-axis 2D rays on a plane or using computational methods/numerical simulations)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">BSc in Physics</title>
+      <link href="http://localhost:4000/education/2015/03/01/bs-physics/" rel="alternate" type="text/html" title="BSc in Physics" />
+      <published>2015-03-01T00:00:00+02:00</published>
+      <updated>2015-03-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/education/2015/03/01/bs-physics</id>
+      <content type="html" xml:base="http://localhost:4000/education/2015/03/01/bs-physics/">&lt;h4 id=&quot;official-university-description&quot;&gt;Official University description&lt;/h4&gt;
+
+&lt;p&gt;This is a 5-year program for students interested in acquiring the necessary knowledge and skills to do research in either theoretical or experimental physics. The aim is for students to gain a more in-depth familiarity with some of the most important concepts in physics and also develop skills in performing physics experiments. The program requires a submission and successful defense of a research thesis during the fifth year. The thesis can either be in theoretical or experimental physics.&lt;/p&gt;
+
+&lt;h4 id=&quot;notable-courses-taken&quot;&gt;Notable courses taken&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Computer-Aided Design (AutoCAD 2010)&lt;/li&gt;
+  &lt;li&gt;Engineering Workshop and Practices&lt;/li&gt;
+  &lt;li&gt;Introduction to Computing (instruction in C++ and C#)&lt;/li&gt;
+  &lt;li&gt;Introduction to Data Structures (instruction in C++)&lt;/li&gt;
+  &lt;li&gt;Classical Mechanics&lt;/li&gt;
+  &lt;li&gt;Computational Physics (instruction in Fortran 90)&lt;/li&gt;
+  &lt;li&gt;Modern Topics in Materials Science and Engineering: Introduction to Nanotechnology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;organizations&quot;&gt;Organizations&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2012-15: Ateneo League of Physicists&lt;/li&gt;
+  &lt;li&gt;2011-12: Ateneo Electronics and Computer Engineering Society, 2nd year Computer Engineering Batch Representative&lt;/li&gt;
+  &lt;li&gt;2011-12: Ateneo Innovation Center&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="education" />
+      
+
+      
+
+      
+        <summary type="html">Official University description</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Gravitational orbits of the higher-order multipole moments</title>
+      <link href="http://localhost:4000/research/2015/02/23/multipole-orbits/" rel="alternate" type="text/html" title="Gravitational orbits of the higher-order multipole moments" />
+      <published>2015-02-23T00:00:00+02:00</published>
+      <updated>2015-02-23T00:00:00+02:00</updated>
+      <id>http://localhost:4000/research/2015/02/23/multipole-orbits</id>
+      <content type="html" xml:base="http://localhost:4000/research/2015/02/23/multipole-orbits/">&lt;ul&gt;
+  &lt;li&gt;studied the related works in literature about gravitational potentials, orbits, and numerical methods for solving differential equations. wrote the thesis text, summarized and drew conclusions from the results from the simulations&lt;/li&gt;
+  &lt;li&gt;adapted the code, in &lt;strong&gt;FORTRAN 90&lt;/strong&gt;, for the second-order Runge-Kutta method for solving the differential equation obtained from the orbit calculations, generated and post-processed roughly 10 billion datapoints&lt;/li&gt;
+  &lt;li&gt;created the illustrations for the text in &lt;strong&gt;AutoCAD 2010&lt;/strong&gt;. plotted the numerical simulation results using &lt;strong&gt;gnuplot&lt;/strong&gt;, a command-line driven plotting utility for Linux systems&lt;/li&gt;
+  &lt;li&gt;presented the results in front of a panel of four professors in the Physics Department&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="research" />
+      
+
+      
+
+      
+        <summary type="html">studied the related works in literature about gravitational potentials, orbits, and numerical methods for solving differential equations. wrote the thesis text, summarized and drew conclusions from the results from the simulations adapted the code, in FORTRAN 90, for the second-order Runge-Kutta method for solving the differential equation obtained from the orbit calculations, generated and post-processed roughly 10 billion datapoints created the illustrations for the text in AutoCAD 2010. plotted the numerical simulation results using gnuplot, a command-line driven plotting utility for Linux systems presented the results in front of a panel of four professors in the Physics Department</summary>
       
 
       
