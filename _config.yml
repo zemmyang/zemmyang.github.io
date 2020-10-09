@@ -7,28 +7,8 @@ keywords: #
 skills: "Electro-optical Engineering PhD student"
 meta_author: Ang Angeleenne Zemmy
 
-# Google webmaster tools
 google_verify: JQOCRSoMXTwd3OmZnLqdHZNchLxdJLHKEGnWwz1SDbw
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
 contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-#disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 88aabb #80B3FF
-  primary-rgb: "53, 67, 73" #"128,179,255"
-  secondary: 557799 #FD6E8A
-  secondary-dark: 221100 #A2122F
 
 # Footer settings
 footer:
@@ -37,14 +17,10 @@ footer:
   social: Around the Web
   credits: Theme Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 social:
   - title: fab fa-facebook-f
     url: https://www.facebook.com/ZemmyAng
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
   - title: fab fa-linkedin-in
     url: https://www.linkedin.com/in/zemmyang/
   - title: fab fa-pinterest-p
