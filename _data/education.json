@@ -1,0 +1,27 @@
+{
+	"education": [{
+            "institution": "Ben-Gurion University",
+            "institution-website": "http://google.com",
+            "degree": "PhD in Electro-optical Engineering",
+            "specialization": "",
+            "awards": "",
+            "years": "2017 - Present"
+		},
+
+		{
+            "institution": "ITMO University",
+            "institution-website": "http://google.com",
+            "degree": "MSc in Photonics",
+            "awards": "Graduated with Honors",
+            "years": "2015 - 2017"
+		},
+
+		{
+            "institution": "Ateneo de Manila University",
+            "institution-website": "http://google.com",
+            "degree": "BSc in Physics",
+            "awards": "",
+            "years": "2010 - 2015"
+		}
+	]
+}

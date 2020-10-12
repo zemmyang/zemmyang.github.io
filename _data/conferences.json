@@ -1,0 +1,21 @@
+[
+{    "title": "aa", 
+    "date": "2010-01-01",
+    "conference": "",
+    "location": "",
+    "abstract": "",
+    "material": "",
+    "type": "Poster",
+    "citekey": "aa20100101"
+},
+{    "title": "bb", 
+    "date": "2010-02-01",
+    "conference": "",
+    "location": "",
+    "abstract": "",
+    "material": "",
+    "type": "Poster",
+    "citekey": "bb20100201"
+}
+
+]

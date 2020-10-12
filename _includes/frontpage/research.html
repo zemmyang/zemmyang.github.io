@@ -1,0 +1,31 @@
+<section class="resume-section" id="research">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Scientific Research</h2>
+
+
+        
+        {% for item in site.data.research %}
+        {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+
+        {% if modulo == '1' %}<div class="row">{% endif %}
+
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100" style="background-color: #{{ site.page-color }}">
+                <a href="#"><img class="card-img-top" src="{{ site.url}}/{{ site.baseurl}}/assets/img/portfolio/research_thumb/{{ item.thumbnail }}" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">{{ item.title }}</a>
+                  </h4>
+                  <p class="card-text">{{ item.description }}</p>
+                </div>
+              </div>
+              </div>
+
+            {% if modulo == '0' or forloop.last %}</div>{% endif %}
+        {% endfor %}
+</div>
+
+
+
+    </div>    
+</section>

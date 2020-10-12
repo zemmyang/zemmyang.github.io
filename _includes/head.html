@@ -1,36 +1,26 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ site.keywords }}" />
-    {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="keywords" content = "{{ site.keywords }}" />
+    
+    <title>{{ site.title-head }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ site.baseurl }}/{{ site.favicon }}" />
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/style.css" }}">
-    <link rel="stylesheet" type="text/css" href="css/fertigo/css/fertigo.css">
-    <link href="/css/fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/css/fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/css/fontawesome/css/solid.css" rel="stylesheet">
+    <!-- Font Awesome icons (free version)-->
+    <script src="{{ site.font-awesome-link }}" crossorigin="anonymous"></script>
 
-    <!-- Google verification -->
-    {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+    <!-- Academicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-    <!-- Bing Verification -->
-    {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 
-    <!-- Custom Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="{{ site.url }}/{{ site.baseurl }}/assets/css/contact-form.css" rel="stylesheet" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{ site.url }}/{{ site.baseurl }}/assets/css/bootstrap-resume-styles.css" rel="stylesheet" />
 </head>
