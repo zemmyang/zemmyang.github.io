@@ -17,11 +17,79 @@
                     <a href="#">{{ item.title }}</a>
                   </h4>
                   <p class="card-text">{{ item.description }}</p>
+
+                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal{{ item.citekey }}">
+                    More
+                  </button>
+
                 </div>
               </div>
-              </div>
+            </div>
 
             {% if modulo == '0' or forloop.last %}</div>{% endif %}
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal{{ item.citekey }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">{{ item.title }}</div>
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                  {% assign paper_citekeys = item.publications %}
+                  {% assign paper_size = paper_citekeys | size %}
+                  {% if paper_size > 0 %}                 
+                      <p>Related Publications</p>
+                      
+                      <ul class="fa-ul mb-0">                    
+                      {% for cite in paper_citekeys %}
+                      {% assign paper = site.data.publications | where:"citekey",cite %}
+                      <li>
+                          <span class="fa-li"><i class="{{ paper[0].icon }}"></i></span>
+                          {{ paper[0].title }}
+                          <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ paper[0].pdf }}"><i class="far fa-file-pdf"></i></a>
+                      </li>
+                      {% endfor %}
+                      </ul>
+                      
+                  {% endif %}
+                    
+                  {% assign conf_citekeys = item.conferences %}
+                  {% assign conf_size = conf_citekeys | size %}
+                  {% if conf_size > 0 %}                 
+                      <p>Conference Presentations</p>
+
+                      <ul class="fa-ul mb-0">                    
+                      {% for cite in conf_citekeys %}
+                      {% assign conference = site.data.conferences | where:"citekey",cite %}
+                      <li>
+                          <span class="fa-li"><i class="{{ conference[0].icon }}"></i></span>
+                          {{ conference[0].title }}
+                          <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ conference[0].pdf }}"><i class="far fa-file-pdf"></i></a>
+                      </li>
+                      {% endfor %}
+                      </ul>
+                  {% endif %}
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         {% endfor %}
 </div>
 
