@@ -1,0 +1,25 @@
+.maintxt_rdb {
+    background-image: url(http://localhost:4000/assets/img/portfolio/projects/rdb.jpg);
+    background-size: cover;
+    height: 50px;
+}
+
+.post-title{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+/* header links */
+.anchorwrap #anchoricon{
+    display: none;
+   }
+   
+.anchorwrap:hover #anchoricon{
+    display:inline;
+}
+
+.anchorlinks{
+    font-size: smaller;
+    padding: 0.25em;
+}

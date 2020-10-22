@@ -1,0 +1,39 @@
+[
+{
+    "title": "Rogue Data Braver",
+    "type": "blog",
+    "keywords": ["physics", "optics"],
+    "description": "Physics blog. Level varies. Mostly optics, sometimes others.",
+    "thumbnail": "rdb.jpg",
+    "navbar_thumbnail": "rdb_thumb.jpg",
+    "url": "rdb"
+},
+{ 
+    "title": "Narrative Segment",
+    "type": "blog",
+    "keywords": ["writing", "creative"],
+    "description": "I try being creative sometimes. Sometimes writing, sometimes others.",
+    "thumbnail": "ns.jpg",
+    "navbar_thumbnail": "ns_thumb.jpg",
+    "url": "ns"
+},
+{
+    "title": "Emergent Variants",
+    "type": "blog",
+    "keywords": ["programming"],
+    "description": "Programming blog. Code snippets and such. Language varies.",
+    "thumbnail": "ev.jpg",
+    "navbar_thumbnail": "ev_thumb.jpg",
+    "url": "ev"
+}
+]
+
+
+// {
+//     "title": "Potatography",
+//     "type": "photoblog",
+//     "keywords": ["random", "pics"],
+//     "description": "Random pics from places.",
+//     "thumbnail": "potato.png",
+//     "url": "potatography"
+// },

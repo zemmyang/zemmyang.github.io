@@ -36,7 +36,7 @@
             "description": "This thesis expands the Kepler problem of graviational orbits by considering the additional multipole moments of a non-spherically symmetric attractor",
             "thumbnail": "orbits.png",
             "publications": "",
-            "conferences": ["spp2013"],
+            "conferences": "",
             "citekey": "multipole-orbits"
         }    
 ]

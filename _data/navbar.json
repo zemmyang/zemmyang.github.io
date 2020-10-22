@@ -1,0 +1,27 @@
+{
+	"main": [{
+			"text": "About",
+			"ref": "about"
+		},
+        {
+			"text": "Research",
+			"ref": "research"
+        },
+        {
+			"text": "Education",
+			"ref": "education"
+        },
+        {
+			"text": "Projects",
+			"ref": "portfolio"
+        },
+        {
+			"text": "Blog",
+			"ref": "blog"
+        },
+        {
+			"text": "Contact",
+			"ref": "contact"
+		}
+	]
+}

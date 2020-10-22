@@ -21,30 +21,56 @@
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 
+    <!-- Contact form -->
     <link href="http://localhost:4000/assets/css/contact-form.css" rel="stylesheet" />
 
+    <!-- Gist custom css -->
+    <link href="http://localhost:4000/assets/css/gist-twilight.css" rel="stylesheet" />
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="http://localhost:4000/assets/css/bootstrap-resume-styles.css" rel="stylesheet" />
+
+    <link href="http://localhost:4000/assets/css/zaghio.css" rel="stylesheet" />
+    <link href="http://localhost:4000/assets/css/timeline.css" rel="stylesheet" />
 </head>
 
     <body id="page-top">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+    
+    <a class="navbar-brand js-scroll-trigger" href="http://localhost:4000#page-top">
         <span class="d-block d-lg-none">Angeleene (Zemmy) Ang</span>
-        <span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2 rounded-circle" src="http://localhost:4000/assets/img/profile.png" alt="" /></span>
+        <span class="d-none d-lg-block">
+            <img class="img-fluid img-profile mx-auto mb-2 rounded-circle" src="http://localhost:4000/assets/img/profile.png" alt="" />
+        </span>
     </a>
+    
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <ul class="navbar-nav">
 
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            
+            
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+            
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
+            
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+            
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
+            
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
+            
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            
+            
+
 
         </ul>
     </div>
@@ -93,20 +119,28 @@
         
         
 
+        
+        
+        
+        
+        
+
         <div class="row">
 
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100" style="background-color: #111112">
-                <a href="#"><img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/wg-nanoantenna.png" alt=""></a>
+                 <a href="#" data-toggle="modal" data-target="#modalatomtrap"> 
+                  <img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/wg-nanoantenna.png" alt="This work presents results from proof-of-concept simulation of an all-dielectric nano-antenna/waveguide system and its potential application for trapping cold atoms.">
+                 </a> 
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Atomic trapping using all-dielectric waveguides</a>
+
+                     <a href="#" data-toggle="modal" data-target="#modalatomtrap"> 
+                      Atomic trapping using all-dielectric waveguides
+                     </a> 
+
                   </h4>
                   <p class="card-text">This work presents results from proof-of-concept simulation of an all-dielectric nano-antenna/waveguide system and its potential application for trapping cold atoms.</p>
-
-                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalatomtrap">
-                    More
-                  </button>
 
                 </div>
               </div>
@@ -120,19 +154,15 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Atomic trapping using all-dielectric waveguides</div>
 
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Atomic trapping using all-dielectric waveguides</div>
 
                 </div>
 
                 <div class="modal-body">
 
-                  
-                  
-                                   
+
+                   
                       <p>Related Publications</p>
                       
                       <ul class="fa-ul mb-0">                    
@@ -140,16 +170,14 @@
                       
                       <li>
                           <span class="fa-li"><i class="ai ai-closed-access"></i></span>
-                          Tailored optical potentials for Cs atoms above waveguides with focusing dielectric nano-antenna
-                          <a href="http://localhost:4000//files/full-papers/2020OL.pdf"><i class="far fa-file-pdf"></i></a>
+                          Tailored optical potentials for Cs atoms above waveguides with focusing dielectric nano-antenna 
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
                       
                   
                     
-                  
-                  
                                    
                       <p>Conference Presentations</p>
 
@@ -159,35 +187,35 @@
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           Tailored optical potentials for Cs atoms above waveguides with focusing dielectric nano-antenna
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           Design of silicon nano-antenna on optical waveguide with deep learning-based algorithm to trap atoms
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           All-dielectric waveguide-overlayer system for optical trapping of atoms
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           Tailoring the trapping potential for Cesium atoms using nano-antennas of different shapes on a waveguide
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           All-dielectric waveguide-overlayer system for single-atom optical trapping
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
@@ -208,19 +236,27 @@
         
 
         
+        
+        
+        
+        
+
+        
 
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100" style="background-color: #111112">
-                <a href="#"><img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/photonic_hook.png" alt=""></a>
+                 <a href="#" data-toggle="modal" data-target="#modalphotonichook"> 
+                  <img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/photonic_hook.png" alt="This paper investigates the movement of nanoparticles under the influence of a curved electric field generated by an asymmetric dielectric cuboid.">
+                 </a> 
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Photonic Hook for Nano-manipulation</a>
+
+                     <a href="#" data-toggle="modal" data-target="#modalphotonichook"> 
+                      Photonic Hook for Nano-manipulation
+                     </a> 
+
                   </h4>
                   <p class="card-text">This paper investigates the movement of nanoparticles under the influence of a curved electric field generated by an asymmetric dielectric cuboid.</p>
-
-                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalphotonichook">
-                    More
-                  </button>
 
                 </div>
               </div>
@@ -234,19 +270,15 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Photonic Hook for Nano-manipulation</div>
 
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Photonic Hook for Nano-manipulation</div>
 
                 </div>
 
                 <div class="modal-body">
 
-                  
-                  
-                                   
+
+                   
                       <p>Related Publications</p>
                       
                       <ul class="fa-ul mb-0">                    
@@ -254,30 +286,28 @@
                       
                       <li>
                           <span class="fa-li"><i class="ai ai-open-access"></i></span>
-                          Photonic hook formation in near-infrared with MXene Ti3C2 nanoparticles
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          Photonic hook formation in near-infrared with MXene Ti3C2 nanoparticles 
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class="ai ai-open-access"></i></span>
-                          Temperature mediated ‘Photonic hook’ nanoparticle manipulator with pulsed illumination
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          Temperature mediated ‘Photonic hook’ nanoparticle manipulator with pulsed illumination 
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class="ai ai-open-access"></i></span>
-                          ‘Photonic Hook’ based optomechanical nanoparticle manipulator
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          ‘Photonic Hook’ based optomechanical nanoparticle manipulator 
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
                       
                   
                     
-                  
-                  
                                    
                       <p>Conference Presentations</p>
 
@@ -287,7 +317,7 @@
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           Low-contrast photonic hook manipulator for cellular differentiation
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
@@ -308,19 +338,27 @@
         
 
         
+        
+        
+        
+        
+
+        
 
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100" style="background-color: #111112">
-                <a href="#"><img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/phc-forces.png" alt=""></a>
+                 <a href="#" data-toggle="modal" data-target="#modalphcforces"> 
+                  <img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/phc-forces.png" alt="This paper presents a study of several periodic nanostructures, their capability to generate a specialized electric field, and the movement of nanoparticles under the influence of this field">
+                 </a> 
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Scattering Forces from Photonic Crystals</a>
+
+                     <a href="#" data-toggle="modal" data-target="#modalphcforces"> 
+                      Scattering Forces from Photonic Crystals
+                     </a> 
+
                   </h4>
                   <p class="card-text">This paper presents a study of several periodic nanostructures, their capability to generate a specialized electric field, and the movement of nanoparticles under the influence of this field</p>
-
-                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalphcforces">
-                    More
-                  </button>
 
                 </div>
               </div>
@@ -334,19 +372,15 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Scattering Forces from Photonic Crystals</div>
 
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Scattering Forces from Photonic Crystals</div>
 
                 </div>
 
                 <div class="modal-body">
 
-                  
-                  
-                                   
+
+                   
                       <p>Related Publications</p>
                       
                       <ul class="fa-ul mb-0">                    
@@ -354,16 +388,14 @@
                       
                       <li>
                           <span class="fa-li"><i class="ai ai-open-access"></i></span>
-                          Scattering Forces within a Left-Handed Photonic Crystal
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          Scattering Forces within a Left-Handed Photonic Crystal 
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
                       
                   
                     
-                  
-                  
                                    
                       <p>Conference Presentations</p>
 
@@ -373,14 +405,14 @@
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           Electromagnetic forces in negatively refracting photonic crystals
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       
                       <li>
                           <span class="fa-li"><i class=""></i></span>
                           Electromagnetic Forces in Negatively Refracting Photonic Crystals
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
@@ -400,20 +432,28 @@
         
         
 
+        
+        
+        
+        
+        
+
         <div class="row">
 
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100" style="background-color: #111112">
-                <a href="#"><img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/fibers.png" alt=""></a>
+                 <a href="#" data-toggle="modal" data-target="#modalskewray"> 
+                  <img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/fibers.png" alt="This work shows a purely analytical method for calculating the skew 3D light rays confined inside an optical fiber.">
+                 </a> 
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Optical Fiber Skey Ray Tracing</a>
+
+                     <a href="#" data-toggle="modal" data-target="#modalskewray"> 
+                      Optical Fiber Skey Ray Tracing
+                     </a> 
+
                   </h4>
                   <p class="card-text">This work shows a purely analytical method for calculating the skew 3D light rays confined inside an optical fiber.</p>
-
-                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalskewray">
-                    More
-                  </button>
 
                 </div>
               </div>
@@ -427,19 +467,15 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Optical Fiber Skey Ray Tracing</div>
 
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Optical Fiber Skey Ray Tracing</div>
 
                 </div>
 
                 <div class="modal-body">
 
-                  
-                  
-                                   
+
+                   
                       <p>Related Publications</p>
                       
                       <ul class="fa-ul mb-0">                    
@@ -447,16 +483,14 @@
                       
                       <li>
                           <span class="fa-li"><i class="ai ai-closed-access"></i></span>
-                          Skew ray tracing in a step-index optical fiber using geometric algebra
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
+                          Skew ray tracing in a step-index optical fiber using geometric algebra 
+                          <!-- <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       
                       </ul>
                       
                   
                     
-                  
-                  
                   
 
 
@@ -474,19 +508,27 @@
         
 
         
+        
+        
+        
+        
+
+        
 
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100" style="background-color: #111112">
-                <a href="#"><img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/orbits.png" alt=""></a>
+                
+                  <img class="card-img-top" src="http://localhost:4000//assets/img/portfolio/research_thumb/orbits.png" alt="This thesis expands the Kepler problem of graviational orbits by considering the additional multipole moments of a non-spherically symmetric attractor">
+                
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Gravitational orbits of the higher-order multipole moments</a>
+
+                    
+                      Gravitational orbits of the higher-order multipole moments
+                    
+
                   </h4>
                   <p class="card-text">This thesis expands the Kepler problem of graviational orbits by considering the additional multipole moments of a non-spherically symmetric attractor</p>
-
-                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalmultipole-orbits">
-                    More
-                  </button>
 
                 </div>
               </div>
@@ -500,35 +542,16 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Gravitational orbits of the higher-order multipole moments</div>
 
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">Gravitational orbits of the higher-order multipole moments</div>
 
                 </div>
 
                 <div class="modal-body">
 
-                  
-                  
+
                   
                     
-                  
-                  
-                                   
-                      <p>Conference Presentations</p>
-
-                      <ul class="fa-ul mb-0">                    
-                      
-                      
-                      <li>
-                          <span class="fa-li"><i class=""></i></span>
-                          Apparent Retrograde Motion of Mars Using Geometric Algebra
-                          <a href="http://localhost:4000//files/full-papers/"><i class="far fa-file-pdf"></i></a>
-                      </li>
-                      
-                      </ul>
                   
 
 
@@ -598,29 +621,133 @@
 </section>
             <hr class="m-0" />
 
-            <section class="resume-section" id="blog">
+            <section class="resume-section" id="portfolio">
     <div class="resume-section-content">
-        <h2 class="mb-5">Recent Blog Posts</h2>
-        <p>
-            Under construction
-        </p>
-        <p class="mb-0">
+        <h2 class="mb-5">Projects</h2>
 
-        </p>
+        
+                
+
+        
+        <div class="row">
+            <div class="col-md-4">
+              <a href="http://localhost:4000/rdb">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="http://localhost:4000/assets/img/portfolio/projects/rdb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <a href="http://localhost:4000/rdb">
+                <h3>Rogue Data Braver</h3>
+              </a>
+              <p>Physics blog. Level varies. Mostly optics, sometimes others.</p>
+            </div>
+          </div>        
+          
+
+          
+
+
+          
+          <hr class="my-3">
+          
+
+          
+                
+
+        
+
+          
+          <div class="row">
+              <div class="col-md-5">
+                <a href="http://localhost:4000/ns">
+                  <h3 class="text-right">Narrative Segment</h3>
+                </a>
+                <p class="text-right">I try being creative sometimes. Sometimes writing, sometimes others.</p>
+              </div>
+              <div class="col-md-4">
+                <a href="http://localhost:4000/ns">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="http://localhost:4000/assets/img/portfolio/projects/ns.jpg" alt="">
+                </a>
+              </div>
+            </div>        
+            
+
+
+          
+          <hr class="my-3">
+          
+
+          
+                
+
+        
+        <div class="row">
+            <div class="col-md-4">
+              <a href="http://localhost:4000/ev">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="http://localhost:4000/assets/img/portfolio/projects/ev.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <a href="http://localhost:4000/ev">
+                <h3>Emergent Variants</h3>
+              </a>
+              <p>Programming blog. Code snippets and such. Language varies.</p>
+            </div>
+          </div>        
+          
+
+          
+
+
+          
+          <hr class="my-3">
+          
+
+          
+
     </div>
 </section>
 
             <hr class="m-0" />
 
-            <section class="resume-section" id="portfolio">
+            <section class="resume-section" id="blog">
     <div class="resume-section-content">
-        <h2 class="mb-5">Projects</h2>
-        <p>
-            Under construction
-        </p>
-        <p class="mb-0">
+        <h2 class="mb-5">Recent Blog Posts</h2>
 
-        </p>
+        <ul style="list-style-type:none">
+        
+            
+                
+                <li> <span class="text-primary">test post please ignore</span> | on 2020 October 22
+                    <div class="mx-5"><p>But seriously, it’s nice to get this website mostly functional again.</p>
+
+<p>Lorem impsum text follows to check how it looks:</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla porta laoreet. Vivamus iaculis mi magna, et mattis ipsum consequat ac. Maecenas sed arcu non arcu iaculis hendrerit nec id lacus. Mauris aliquet consectetur ante, non consequat ligula dignissim nec. In tempor porttitor velit, et rutrum ex commodo id. Duis condimentum turpis vel blandit fermentum. Donec vitae augue at felis efficitur tempor. Etiam justo dui, tempor vitae viverra at, sodales ac sapien. Pellentesque at bibendum neque. Phasellus sit amet dictum neque.</p>
+</div>
+                </li>
+                
+
+      
+            
+                
+                <li class="my-3"><a href="/rdb/2020/test-post"> test post </a> | in rogue-data-braver on 2020 October 22 </li>
+                
+
+      
+            
+                
+                <li class="my-3"><a href="/ns/2020/test-post"> test post </a> | in narrative-segment on 2020 October 22 </li>
+                
+
+      
+            
+                
+                <li class="my-3"><a href="/ev/2020/test-post"> test post </a> | in emergent-variants on 2020 October 22 </li>
+                
+
+      
+        </ul>
     </div>
 </section>
 
@@ -628,7 +755,7 @@
 
             <section class="resume-section" id="contact">
     <div class="resume-section-content">
-        <h2 class="mb-5">Contact Me</h2>
+        <h2 class="mb-5">Contact The Author</h2>
 
                 
         <form method="POST" action="https://formspree.io/angeleene.ang@gmail.com">
@@ -648,10 +775,20 @@
     </div>
 </section>
 
-
         </div>
 
-        <!-- Bootstrap core JS-->
+        
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Bootstrap core JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 
@@ -660,7 +797,6 @@
 
 <!-- Core theme JS-->
 <script src="http://localhost:4000/assets/js/bootstrap-resume-scripts.js"></script>
-
 
 
 

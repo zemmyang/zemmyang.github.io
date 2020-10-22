@@ -1,3 +1,14 @@
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <!-- Bootstrap core JS-->
 <script src="{{ site.jquery-min }}"></script>
 <script src="{{ site.bootstrap-bundle-min }}"></script>
@@ -9,4 +20,7 @@
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/bootstrap-resume-scripts.js"></script>
 
 
-
+{% if page.layout == 'post' %}
+<!-- Post anchorlinks -->
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/anchorlinks.js"></script>
+{% endif %}

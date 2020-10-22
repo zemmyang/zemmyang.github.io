@@ -1,5 +1,6 @@
 # --- Required options --- #
 
+title: ZAGHIO
 title-head: Angeleene (Zemmy) Ang
 subheading: Electro-optical Engineering PhD student
 
@@ -16,8 +17,7 @@ url: "http://zemmyang.com" # the base hostname & protocol for your site, e.g. ht
 description: >- # this means to ignore newlines
   Aspiring Physicist. Perpetually curious. Website currently under re-construction.
 
-# Excerpt word length - Truncate the excerpt of each post on the blog posts page to the specified number of words
-excerpt_length: 50
+excerpt_separator: <!--more-->
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "jekyll, theme"
@@ -63,7 +63,52 @@ heading-color: "4455aa"
 
 # --- Misc --- #
 
-# Ruby Date Format to show dates of posts
+collections:
+  category:
+    output: true
+  tags:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts/rogue-data-braver"
+      type: posts
+    values:
+      permalink: /rdb/:year/:title
+      category: "rogue-data-braver"
+  - scope:
+      path: "_posts/emergent-variants"
+      type: posts
+    values:
+      permalink: /ev/:year/:title
+      category: "emergent-variants"
+  - scope:
+      path: "_posts/narrative-segment"
+      type: posts
+    values:
+      permalink: /ns/:year/:title
+      category: "narrative-segment"
+  - scope:
+      path: "_posts/potatography"
+      type: posts
+    values:
+      permalink: /potatography/:year/:title
+      category: "potatography"
+  - scope:
+      path: "_posts/zemmy"
+      type: posts
+    values:
+      permalink: /zem/:year/:title
+      category: "zemmy"
+
+plugins:
+- jekyll-gist
+- jekyll-seo-tag
+
+gist:
+  noscript: false  
+
+  # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
@@ -72,7 +117,6 @@ date_format: "%B %-d, %Y"
 timezone: "Israel"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
 paginate: 5
 
 font-awesome-link: https://kit.fontawesome.com/b8a4a61420.js

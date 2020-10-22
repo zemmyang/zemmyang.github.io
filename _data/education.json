@@ -1,5 +1,4 @@
-{
-	"education": [{
+[{
             "institution": "Ben-Gurion University",
             "institution-website": "https://in.bgu.ac.il/en/engn/electrop/Pages/default.aspx",
             "degree": "PhD in Electro-optical Engineering",
@@ -26,5 +25,4 @@
             "years": "2010 - 2015",
             "logo": "ateneo.svg"
 		}
-	]
-}
+]

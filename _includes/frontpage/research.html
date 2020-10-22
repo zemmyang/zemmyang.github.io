@@ -7,20 +7,28 @@
         {% for item in site.data.research %}
         {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
 
+        {% assign paper_citekeys = item.publications %}
+        {% assign paper_size = paper_citekeys | size %}
+        {% assign conf_citekeys = item.conferences %}
+        {% assign conf_size = conf_citekeys | size %}
+        {% assign output_size = paper_size + conf_size %}
+
         {% if modulo == '1' %}<div class="row">{% endif %}
 
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100" style="background-color: #{{ site.page-color }}">
-                <a href="#"><img class="card-img-top" src="{{ site.url}}/{{ site.baseurl}}/assets/img/portfolio/research_thumb/{{ item.thumbnail }}" alt=""></a>
+                {% if output_size > 0 %} <a href="#" data-toggle="modal" data-target="#modal{{ item.citekey }}"> {% endif %}
+                  <img class="card-img-top" src="{{ site.url}}/{{ site.baseurl}}/assets/img/portfolio/research_thumb/{{ item.thumbnail }}" alt="{{ item.description }}">
+                {% if output_size > 0 %} </a> {% endif %}
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">{{ item.title }}</a>
+
+                    {% if output_size > 0 %} <a href="#" data-toggle="modal" data-target="#modal{{ item.citekey }}"> {% endif %}
+                      {{ item.title }}
+                    {% if output_size > 0 %} </a> {% endif %}
+
                   </h4>
                   <p class="card-text">{{ item.description }}</p>
-
-                  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal{{ item.citekey }}">
-                    More
-                  </button>
 
                 </div>
               </div>
@@ -34,46 +42,40 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">{{ item.title }}</div>
 
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="subheading mb-3 modal-title" id="exampleModalLabel">{{ item.title }}</div>
 
                 </div>
 
                 <div class="modal-body">
 
-                  {% assign paper_citekeys = item.publications %}
-                  {% assign paper_size = paper_citekeys | size %}
-                  {% if paper_size > 0 %}                 
+
+                  {% if paper_size > 0 %} 
                       <p>Related Publications</p>
                       
                       <ul class="fa-ul mb-0">                    
                       {% for cite in paper_citekeys %}
-                      {% assign paper = site.data.publications | where:"citekey",cite %}
+                      {% assign paper = site.data.publications | where:"citekey",cite | first %}
                       <li>
-                          <span class="fa-li"><i class="{{ paper[0].icon }}"></i></span>
-                          {{ paper[0].title }}
-                          <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ paper[0].pdf }}"><i class="far fa-file-pdf"></i></a>
+                          <span class="fa-li"><i class="{{ paper.icon }}"></i></span>
+                          {{ paper.title }} 
+                          <!-- <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ paper[0].pdf }}"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       {% endfor %}
                       </ul>
                       
                   {% endif %}
                     
-                  {% assign conf_citekeys = item.conferences %}
-                  {% assign conf_size = conf_citekeys | size %}
                   {% if conf_size > 0 %}                 
                       <p>Conference Presentations</p>
 
                       <ul class="fa-ul mb-0">                    
                       {% for cite in conf_citekeys %}
-                      {% assign conference = site.data.conferences | where:"citekey",cite %}
+                      {% assign conference = site.data.conferences | where:"citekey",cite | first %}
                       <li>
-                          <span class="fa-li"><i class="{{ conference[0].icon }}"></i></span>
-                          {{ conference[0].title }}
-                          <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ conference[0].pdf }}"><i class="far fa-file-pdf"></i></a>
+                          <span class="fa-li"><i class="{{ conference.icon }}"></i></span>
+                          {{ conference.title }}
+                          <!-- <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ conference[0].pdf }}"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       {% endfor %}
                       </ul>
