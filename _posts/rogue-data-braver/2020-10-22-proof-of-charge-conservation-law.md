@@ -3,11 +3,15 @@ layout: post
 title: Proof of charge conservation law
 
 ---
+A short proof of the charge conservation law that I wrote to test the MathJax functionality of the blog.
+
 We first take the derivative of the Gauss Law from the Maxwell Equations with respect to time on both sides
 
 \\begin{equation}
 \\dfrac{\\partial}{\\partial t} \\left ( \\nabla \\cdot \\mathbf { E } ( \\mathbf { r } , t ) = \\frac { 1 } { \\varepsilon _ { 0 } } \\rho ( \\mathbf { r } , t ) \\right )
 \\end{equation}
+
+<!--more-->
 
 If we assume that $\\mathbf E$ and $\\mathbf B$ are [smooth vector functions, the derivative order is interchangeable](https://en.wikipedia.org/wiki/Symmetry_of_second_derivatives). So,
 
