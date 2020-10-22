@@ -41,6 +41,6 @@ and since
 
 then
 
-$$ \\begin{equation}-\\nabla \\cdot \\mathbf { j } ( \\mathbf { r } , t ) = \\dfrac{\\partial \\rho}{\\partial t} \\end{equation} $$
+\\begin{equation}-\\nabla \\cdot \\mathbf { j } ( \\mathbf { r } , t ) = \\dfrac{\\partial \\rho}{\\partial t} \\end{equation}
 
 which is defined as the charge conservation law.
