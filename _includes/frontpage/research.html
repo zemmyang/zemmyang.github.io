@@ -51,15 +51,16 @@
 
 
                   {% if paper_size > 0 %} 
-                      <p>Related Publications</p>
+                      <h4>Related Publications</h4>
                       
                       <ul class="fa-ul mb-0">                    
                       {% for cite in paper_citekeys %}
                       {% assign paper = site.data.publications | where:"citekey",cite | first %}
-                      <li>
+                      <li class="my-3">
                           <span class="fa-li"><i class="{{ paper.icon }}"></i></span>
-                          {{ paper.title }} 
-                          <!-- <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ paper[0].pdf }}"><i class="far fa-file-pdf"></i></a> -->
+                          <p><b>{{ paper.title }}</b>
+                          <br /> Published in <em>{{ paper.journal }}</em>, {{ paper.date }}</p>
+                          <!-- <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ paper.pdf }}"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       {% endfor %}
                       </ul>
@@ -67,14 +68,15 @@
                   {% endif %}
                     
                   {% if conf_size > 0 %}                 
-                      <p>Conference Presentations</p>
+                      <h4>Conference Presentations</h4>
 
                       <ul class="fa-ul mb-0">                    
                       {% for cite in conf_citekeys %}
                       {% assign conference = site.data.conferences | where:"citekey",cite | first %}
                       <li>
                           <span class="fa-li"><i class="{{ conference.icon }}"></i></span>
-                          {{ conference.title }}
+                          <p><b>{{ conference.title }}</b>
+                            <br /> Presented on <em>{{ conference.conference }}</em>, {{ conference.date }} at {{ conference.location }} ({{ conference.type}})
                           <!-- <a href="{{ site.url}}/{{ site.baseurl}}/files/full-papers/{{ conference[0].pdf }}"><i class="far fa-file-pdf"></i></a> -->
                       </li>
                       {% endfor %}
