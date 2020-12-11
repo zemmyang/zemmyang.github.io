@@ -4,20 +4,20 @@
 			"ref": "about"
 		},
         {
+			"text": "Blog",
+			"ref": "blog"
+        },
+        {
+			"text": "Projects",
+			"ref": "portfolio"
+        },
+		{
 			"text": "Research",
 			"ref": "research"
         },
         {
 			"text": "Education",
 			"ref": "education"
-        },
-        {
-			"text": "Projects",
-			"ref": "portfolio"
-        },
-        {
-			"text": "Blog",
-			"ref": "blog"
         },
         {
 			"text": "Contact",
