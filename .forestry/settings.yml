@@ -16,16 +16,16 @@ sections:
   label: Pages
   create: all
 - type: directory
+  path: _tags
+  label: Tags
+  create: all
+  match: "**/*"
+- type: directory
   path: private
   label: Private
   create: all
   match: "**/*"
   new_doc_ext: html
-- type: directory
-  path: _tags
-  label: Tags
-  create: all
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
