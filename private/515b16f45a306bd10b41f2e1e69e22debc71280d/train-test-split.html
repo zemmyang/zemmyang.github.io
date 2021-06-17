@@ -1,0 +1,30 @@
+---
+layout: post
+title: Train Test Split
+
+---
+# Train Test Split
+
+## Basic command
+
+No feature/target separation
+
+    from sklearn.model_selection import train_test_split
+    train, test = train_test_split(df)
+
+## Useful arguments
+
+    train, test = train_test_split(df, test_size=0.25, random_state=0)
+
+`random_state` kinda like random seed
+
+## With a validation split
+
+Use TTS twice
+
+def train_val_test_split(X, y, test_size=0.2, val_size=0.25, random_state=None, shuffle=True):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state, shuffle=shuffle)
+    X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=val_size, random_state=random_state, shuffle=shuffle)
+    return X_train, X_val, X_test, y_train, y_val, y_test
+
+Note: 0.25 x 0.8 = 0.2
