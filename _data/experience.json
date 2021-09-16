@@ -1,16 +1,9 @@
 {
 	"experience": [{
-			"title": "Meow 1",
-            "company": "Nya",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem tortor, lobortis vitae ipsum eget, cursus accumsan velit. Pellentesque vestibulum mi ac turpis elementum rhoncus. Aenean consectetur posuere enim vel congue. Fusce id tempor purus. Pellentesque ut metus condimentum, porta felis eu, ullamcorper mauris. Nam ut imperdiet odio. Nulla id augue tristique, fermentum risus nec, pharetra mauris. Nunc fringilla ultricies porta. Curabitur convallis, enim nec sollicitudin venenatis, mauris leo feugiat tortor, a condimentum nunc turpis in nulla. Sed vitae lacus lectus. Morbi pulvinar tortor vel quam feugiat, sit amet porta mauris fermentum",
-            "years": "A2010 - B2020"
-		},
-
-		{
-			"title": "Meow 2",
-            "company": "Purr",
-            "description": "Fusce sodales urna vitae bibendum gravida. Nullam ultricies vestibulum mi ut imperdiet. Integer sed blandit velit. Morbi gravida nulla vel justo cursus, eget maximus ante sodales. Nullam id imperdiet nulla. Sed laoreet non velit a viverra. Ut sit amet est lectus. Proin quis cursus eros. Aliquam at vestibulum nulla.            ",
-            "years": "A2010 - B2020"
+			"title": "Software Programmer",
+            "company": "Technion - Israel Institute of Technology: Computational MRI Lab",
+            "description": "My main task as a software programmer in the TCML is to continue and lead the development of a user-friendly interface using Python (specifically PyQT5 and VTK) in order to assist the group towards of their research projects. In collaboration with the Department of Radiology at Rambam Health Care Campus, the goal of this project is to advance diagnostic and maintenance imaging for Crohn's Disease by developing deep learning techniques to enhance image quality and aid image analysis. In addition, I also assist the research group in an assortment of technical matters.",
+            "years": "2021"
 		}
 	]
 }

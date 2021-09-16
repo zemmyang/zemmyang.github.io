@@ -1,5 +1,12 @@
 [
-      
+      {
+            "institution": "Israel Tech Challenge",
+            "institution-website": "https://www.itc.tech/fellows-data-science/",
+            "degree": "Data Science Fellow",
+            "awards": "",
+            "years": "2020 - 2021",
+            "logo": "itc.svg"
+		},
 
 		{
             "institution": "ITMO University",

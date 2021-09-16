@@ -4,3 +4,4 @@ gem 'jekyll'
 gem 'jekyll-gist'
 gem 'jekyll-seo-tag'
 gem 'jekyll-admin', group: :jekyll_plugins
+gem 'tzinfo-data'

@@ -4,16 +4,8 @@
 			"ref": "about"
 		},
         {
-			"text": "Blog",
-			"ref": "blog"
-        },
-        {
-			"text": "Projects",
-			"ref": "portfolio"
-        },
-		{
-			"text": "Research",
-			"ref": "research"
+			"text": "Experience",
+			"ref": "experience"
         },
         {
 			"text": "Education",
