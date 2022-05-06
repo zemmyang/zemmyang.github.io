@@ -2,7 +2,7 @@
 
 title: ZAGHIO
 title-head: Angeleene (Zemmy) Ang
-subheading: Programmer. Aspiring Data Scientist. Researcher.
+subheading: Programmer. Aspiring Data Engineer. 
 
 # Name of author
 author: Angeleene Ang
@@ -15,7 +15,7 @@ url: "https://www.zemmyang.com" # the base hostname & protocol for your site, e.
 # --- General options --- #
 
 description: >- # this means to ignore newlines
-  I'm currently in the middle of some changes. 
+  Perpetually in a state of change.
 
 excerpt_separator: <!--more-->
 
@@ -49,17 +49,6 @@ heading-color: "4455aa"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 google_analytics: G-3GZBTXJV4K
-
-# --- Comments and Contact --- #
-
-# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
-
-# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
-
-# Formspree
-#formspree: ""
 
 # --- Misc --- #
 

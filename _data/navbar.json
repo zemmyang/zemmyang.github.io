@@ -3,7 +3,7 @@
 			"text": "About",
 			"ref": "about"
 		},
-        {
+		{
 			"text": "Experience",
 			"ref": "experience"
         },
@@ -15,5 +15,10 @@
 			"text": "Contact",
 			"ref": "contact"
 		}
-	]
+	],
+	"sub": [{
+		"text": "Projects",
+		"ref": "projects.html"
+	}
+]
 }

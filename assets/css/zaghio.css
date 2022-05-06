@@ -26,3 +26,17 @@
     font-size: smaller;
     padding: 0.25em;
 }
+
+hr {
+    border-width:0;
+    display: none;
+
+}
+
+hr.navbar {
+    display: block;
+}
+
+.nav-link{
+    color: #{{ site.link-color }};
+}

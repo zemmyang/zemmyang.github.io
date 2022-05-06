@@ -11,11 +11,14 @@
             {{ site.subheading }}
             <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </div>
-        <p class="lead mb-5">{{ site.description }}</p>
+
         <div class="social-icons">
             {% for item in site.data.social-icons.social-icons %}
                 <a class="social-icon" href="{{ item.link }}"><i class="{{ item.fa-icon }}" aria-hidden="true"></i></a>
             {% endfor %}
         </div>
+
+        {% include frontpage/changelog.html %}
+        
     </div>
 </section>
