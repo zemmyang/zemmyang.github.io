@@ -1,9 +1,15 @@
 {
 	"experience": [{
 			"title": "Software Programmer",
-            "company": "Technion - Israel Institute of Technology: Computational MRI Lab",
-            "description": "My main task as a software programmer in the TCML is to continue and lead the development of a user-friendly interface using Python (specifically PyQT5 and VTK) in order to assist the group towards of their research projects. In collaboration with the Department of Radiology at Rambam Health Care Campus, the goal of this project is to advance diagnostic and maintenance imaging for Crohn's Disease by developing deep learning techniques to enhance image quality and aid image analysis. In addition, I also assist the research group in an assortment of technical matters.",
+            "company": "Computational MRI Lab, Technion - Israel Institute of Technology",
+            "description": "Continue and lead the development of a user-friendly interface using Python to assist researchers in collaboration with the Department of Radiology at Rambam Health Care Campus",
             "years": "2021"
+		},
+		{
+			"title": "Android Developer",
+            "company": "Artificial Intelligence in Medicine Laboratory, Technion - Israel Institute of Technology",
+            "description": "Planned, developed, and tested an Android application to record time-series data from a Bluetooth-connected device. Implemented a backend for processing the data and running AI model inference using Google Cloud Services.",
+            "years": "2022"
 		}
 	]
 }
