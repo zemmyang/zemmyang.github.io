@@ -9,6 +9,15 @@
         "category": ["website", "featured"]
     },
     {
+    "title": "pyDXHR",
+    "description": "Python toolset for data extraction and manipulation for files in the game Deus Ex Human Revolution.",
+    "thumbnail": "pydxhr_logo.png",
+    "dates": "2022 - present",
+    "external-url": "https://pydxhr.vardonir.com",
+    "icons": ["devicon-python-plain"],
+    "category": ["vardonir", "featured"]
+    },
+    {
     "title": "Image Untangler",
     "description": "Desktop GUI to read, annotate, and calculate centerlines for MRI scans. Created for the Technion Computational MRI Lab.",
     "thumbnail": "imageuntangler.png",
@@ -16,8 +25,8 @@
     "external-url": "https://github.com/TechnionComputationalMRILab/ImageUntangler",
     "icons": ["devicon-python-plain", "devicon-qt-original", "devicon-sqlite-plain"],
     "category": ["python", "featured"]
-},
-{
+    },
+    {
     "title": "Gyroscope Tracker Demo",
     "description": "Quick Java/Android app that reads gyroscope sensor data from a phone, stores it a local database, and allows the user to save to a CSV file",
     "thumbnail": "gyroscopetracker.gif",
@@ -33,7 +42,7 @@
     "dates": "2021",
     "external-url": "https://github.com/zemmyang/itc-data-mining-project",
     "icons": ["devicon-python-plain", "devicon-mysql-plain"],
-    "category": ["exercise", "python", "featured"]
+    "category": ["exercise", "python"]
 },
 {
     "title": "PyQT VTK Demo",

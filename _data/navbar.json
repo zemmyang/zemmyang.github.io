@@ -19,6 +19,8 @@
 	"sub": [{
 		"text": "Projects",
 		"ref": "projects.html"
-	}
-]
+	},{
+		"text": "Side Projects",
+		"ref": "https://vardonir.com"
+	}]
 }

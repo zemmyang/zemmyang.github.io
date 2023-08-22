@@ -2,7 +2,5 @@
 <h3 class="mt-5">Changelog</h3>
 
 {% for item in site.data.changelog %}
-<b>{{item.date}}</b>
-<br />
-{{item.text}}
+<p><b>{{item.date}}</b> - {{item.text}}</p>
 {% endfor %}

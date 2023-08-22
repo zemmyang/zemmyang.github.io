@@ -42,7 +42,7 @@
             
                 <hr class="navbar" />
             {% for item in site.data.navbar.sub %}
-                <li class="nav-item"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{ item.ref }}">{{ item.text }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ item.ref }}">{{ item.text }}</a></li>
             {% endfor %}
             {% else %}
                 <li class="nav-item"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}">ZemmyAng</a> </li>
