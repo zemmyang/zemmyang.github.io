@@ -1,0 +1,26 @@
+[
+    {
+          "institution": "Israel Tech Challenge",
+          "website": "https://www.itc.tech/fellows-data-science/",
+          "degree": "Data Science Fellow",
+          "awards": "",
+          "years": "2020 - 2021",
+          "logo": "itc.svg"
+      },
+      {
+          "institution": "ITMO University",
+          "website": "https://en.itmo.ru/en/viewjep/2/10/Nanophotonics_and_Metamaterials.htm",
+          "degree": "MSc in Photonics",
+          "awards": "Graduated with Honors",
+          "years": "2015 - 2017",
+          "logo": "itmo.svg"
+      },
+      {
+          "institution": "Ateneo de Manila University",
+          "website": "http://www.ateneo.edu/ls/sose/physics",
+          "degree": "BSc in Physics",
+          "awards": "",
+          "years": "2010 - 2015",
+          "logo": "ateneo.svg"
+      }
+]

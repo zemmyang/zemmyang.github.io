@@ -1,0 +1,17 @@
+[
+    {
+        "name": "github",
+        "url": "", 
+        "icon": "fa github"
+    },
+    {
+        "name": "linkedin",
+        "url": "",
+        "icon": "fa linkedin"
+    },
+    {
+        "name": "orcid",
+        "url": "",
+        "icon": "fa orcid"
+    }
+]

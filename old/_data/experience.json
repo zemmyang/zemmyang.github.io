@@ -1,0 +1,15 @@
+{
+	"experience": [{
+			"title": "Software Programmer",
+            "company": "Computational MRI Lab, Technion - Israel Institute of Technology",
+            "description": "Continue and lead the development of a user-friendly interface using Python to assist researchers in collaboration with the Department of Radiology at Rambam Health Care Campus",
+            "years": "2021"
+		},
+		{
+			"title": "Fullstack Developer",
+            "company": "Artificial Intelligence in Medicine Laboratory, Technion - Israel Institute of Technology",
+            "description": "Planned, developed, and tested an Android application to record time-series data from a Bluetooth-connected device. Implemented a backend for processing the data and running AI model inference using Google Cloud Services.",
+            "years": "2022"
+		}
+	]
+}

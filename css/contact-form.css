@@ -1,0 +1,36 @@
+---
+---
+
+input,textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #000;
+}
+
+textarea:focus, input:focus {
+  border-color: none;
+  outline: none;
+  color: #fff;
+  background-color: #000;
+}
+
+textarea {
+  height: 10em;
+}
+
+button {
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: #fff;
+  color: #{{ site.link-color }};
+  background-color: #{{ site.page-color }};
+}
+
