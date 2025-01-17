@@ -1,0 +1,26 @@
+{
+	"main": [{
+			"text": "About",
+			"ref": "about"
+		},
+		{
+			"text": "Experience",
+			"ref": "experience"
+        },
+        {
+			"text": "Education",
+			"ref": "education"
+        },
+        {
+			"text": "Contact",
+			"ref": "contact"
+		}
+	],
+	"sub": [{
+		"text": "Projects",
+		"ref": "projects.html"
+	},{
+		"text": "Side Projects",
+		"ref": "https://vardonir.com"
+	}]
+}

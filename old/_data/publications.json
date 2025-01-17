@@ -1,0 +1,72 @@
+[
+{
+    "title": "Photonic hook formation in near-infrared with MXene Ti3C2 nanoparticles", 
+    "authors": "M Spector, A S Ang, O V Minin, I V Minin, and A Karabchevsky",
+    "doi": "https://doi.org/10.1039/D0NA00485E",
+    "date": "2020",
+    "journal": "Nanoscale Advances",
+    "icon": "ai ai-open-access",
+    "pdf": "",
+    "citekey": "spectorNA2020a"
+},
+{
+    "title": "On-chip nanophotonics and future challenges", 
+    "authors": "A Karabchevsky, A Katiyi, A S Ang, and Adir Hazan",
+    "doi": "https://doi.org/10.1515/nanoph-2020-0204",
+    "date": "2020",
+    "journal": "Nanophotonics",
+    "icon": "ai ai-open-access",
+    "pdf": "",
+    "citekey": "akn2020"
+},
+{
+    "title": "Tailored optical potentials for Cs atoms above waveguides with focusing dielectric nano-antenna", 
+    "authors": "A S Ang, A S Shalin, and A Karabchevsky",
+    "doi": "https://doi.org/10.1364/OL.394557",
+    "date": "2020",
+    "journal": "Optics Letters",
+    "icon": "ai ai-closed-access",
+    "pdf": "2020OL.pdf",
+    "citekey": "angOL2020"
+},
+{
+    "title": "Temperature mediated ‘Photonic hook’ nanoparticle manipulator with pulsed illumination", 
+    "authors": "M Spector, A S Ang, O V Minin, I V Minin, and A Karabchevsky",
+    "doi": "https://doi.org/10.1039/C9NA00759H",
+    "date": "2020",
+    "journal": "Nanoscale Advances",
+    "icon": "ai ai-open-access",
+    "pdf": "",
+    "citekey": "spectorNA2020"
+},
+{
+    "title": "‘Photonic Hook’ based optomechanical nanoparticle manipulator", 
+    "authors": "A S Ang, A Karabchevsky, I V Minin, O V Minin, S V Sukhov, and A S Shalin",
+    "doi": "https://doi.org/10.1038/s41598-018-20224-4",
+    "date": "2018",
+    "journal": "Scientific Reports",
+    "icon": "ai ai-open-access",
+    "pdf": "",
+    "citekey": "angSR2018"
+},
+{
+    "title": "Scattering Forces within a Left-Handed Photonic Crystal", 
+    "authors": "A S Ang, S V Sukhov, A Dogariu, and A S Shalin",
+    "doi": "https://doi.org/10.1038/srep41014",
+    "date": "2017",
+    "journal": "Scientific Reports",
+    "icon": "ai ai-open-access",
+    "pdf": "",
+    "citekey": "angSR2017"
+},
+{
+    "title": "Skew ray tracing in a step-index optical fiber using geometric algebra", 
+    "authors": "A S Ang, Q M Sugon, and D J McNamara",
+    "doi": "https://doi.org/10.1364/AO.54.003764",
+    "date": "2015",
+    "journal": "Applied Optics",
+    "icon": "ai ai-closed-access",
+    "pdf": "",
+    "citekey": "angAO2015"
+}
+]

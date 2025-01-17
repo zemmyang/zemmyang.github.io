@@ -1,0 +1,23 @@
+{% assign category_array = "" | split: ',' %}
+
+{% for item in site.data.projects %}
+{% assign category_array = category_array | push: item.category %}
+{% endfor %}
+
+<!-- Tabs navs -->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#ex1-tabs-featured" >Featured</a>
+  </li>
+
+  {% assign category_array = category_array | uniq %}
+  {% for cat in category_array %}
+    {% if cat != 'featured' %}
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#ex1-tabs-{{ cat }}">{{ cat | capitalize }}</a>
+    </li>
+      {% endif %}
+  {% endfor %}
+
+</ul>
+<!-- Tabs navs -->

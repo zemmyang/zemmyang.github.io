@@ -1,0 +1,34 @@
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="keywords" content = "{{ site.keywords }}" />
+
+    {% if page.layout == 'frontpage' %}
+        <title>{{ site.title-head }}</title>
+    {% endif %}
+    
+    <title>{{ site.title-head }}</title>
+
+    <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/{{ site.favicon }}" />
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{ site.url }}{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>

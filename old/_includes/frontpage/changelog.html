@@ -1,0 +1,6 @@
+<hr class="m-0">
+<h3 class="mt-5">Changelog</h3>
+
+{% for item in site.data.changelog %}
+<p><b>{{item.date}}</b> - {{item.text}}</p>
+{% endfor %}
